@@ -14,13 +14,13 @@ Build Khethi in Tech into a professional technology education and personal devel
 * [x] Create initial project structure.
 * [x] Create documentation structure.
 * [x] Create `.gitignore`.
-* [ ] Initialise Git.
-* [ ] Complete README.
-* [ ] Complete requirements.
-* [ ] Complete backlog.
-* [ ] Complete roadmap.
-* [ ] Document architecture.
-* [ ] Create initial ADR.
+* [x] Initialise Git.
+* [x] Complete README.
+* [x] Complete requirements.
+* [x] Complete backlog.
+* [x] Complete roadmap.
+* [x] Document architecture.
+* [x] Create initial ADR.
 
 ---
 
