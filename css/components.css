@@ -1,6 +1,7 @@
 /* =========================================================
    Khethi in Tech
    Reusable UI Components
+   Mobile-First
    ========================================================= */
 
 
@@ -9,25 +10,153 @@
    ========================================================= */
 
 /*
-   Purpose:
-   Reusable buttons and call-to-action elements.
+   Buttons are reusable actions throughout the website.
 
-   Planned variants:
-   - Primary
-   - Secondary
-   - Outline
-   - Ghost
-   - Icon
-
-   Planned states:
-   - Default
-   - Hover
-   - Focus
-   - Active
-   - Disabled
+   Visual direction:
+   - Instagram-inspired pink, purple and red gradient
+   - Rounded pill shape
+   - Controlled glow
+   - Clear interaction states
+   - Comfortable mobile tap targets
 */
 
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
 
+    min-height: 2.75rem;
+    padding: 0.75rem 1.25rem;
+
+    border: 1px solid transparent;
+    border-radius: 999px;
+
+    background: transparent;
+
+    color: var(--color-text);
+
+    font: inherit;
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.2;
+
+    text-align: center;
+    text-decoration: none;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        background 0.2s ease,
+        border-color 0.2s ease,
+        color 0.2s ease;
+}
+
+
+/* Primary button */
+
+.btn-primary {
+    background: var(--gradient-instagram);
+    color: #ffffff;
+
+    box-shadow: var(--glow-button);
+}
+
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--glow-button-hover);
+}
+
+
+.btn-primary:active {
+    transform: translateY(0);
+}
+
+
+/* Secondary button */
+
+.btn-secondary {
+    background: var(--color-surface);
+    color: var(--color-text);
+
+    border-color: var(--color-border);
+}
+
+
+.btn-secondary:hover {
+    transform: translateY(-2px);
+
+    border-color: var(--color-accent);
+
+    box-shadow: var(--glow-button);
+}
+
+
+/* Outline button */
+
+.btn-outline {
+    background: transparent;
+    color: var(--color-accent);
+
+    border-color: var(--color-accent);
+}
+
+
+.btn-outline:hover {
+    background: var(--color-accent);
+    color: #ffffff;
+
+    box-shadow: var(--glow-button);
+}
+
+
+/* Ghost button */
+
+.btn-ghost {
+    background: transparent;
+    color: var(--color-text);
+}
+
+
+.btn-ghost:hover {
+    color: var(--color-accent);
+
+    background: var(--color-surface);
+}
+
+
+/* Icon button */
+
+.btn-icon {
+    width: 2.75rem;
+    height: 2.75rem;
+
+    padding: 0;
+}
+
+
+/* Button focus */
+
+.btn:focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 3px;
+}
+
+
+/* Disabled button */
+
+.btn:disabled,
+.btn[aria-disabled="true"] {
+    opacity: 0.5;
+
+    cursor: not-allowed;
+
+    transform: none;
+    box-shadow: none;
+}
 
 
 /* =========================================================
@@ -35,17 +164,43 @@
    ========================================================= */
 
 /*
-   Purpose:
-   Reusable link styles.
-
-   Planned variants:
-   - Standard link
-   - Navigation link
-   - External link
-   - Accent link
+   Links should feel clean by default and become colourful
+   when interacted with.
 */
 
+.link {
+    color: var(--color-text);
 
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.2em;
+
+    transition:
+        color 0.2s ease,
+        text-shadow 0.2s ease;
+}
+
+
+.link:hover {
+    color: var(--color-accent);
+
+    text-shadow: var(--glow-text);
+}
+
+
+.link:focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 3px;
+}
+
+
+/* Accent link */
+
+.link-accent {
+    color: var(--color-accent);
+
+    font-weight: 600;
+}
 
 
 /* =========================================================
@@ -53,16 +208,59 @@
    ========================================================= */
 
 /*
-   Purpose:
-   Base styling shared by reusable content cards.
-
-   Planned variants:
-   - Standard card
-   - Featured card
-   - Interactive card
+   Base card used throughout:
+   - Blog
+   - Portfolio
+   - Resources
+   - Products
+   - Courses
 */
 
+.card {
+    display: flex;
+    flex-direction: column;
 
+    padding: 1.25rem;
+
+    background: var(--color-surface);
+
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-card);
+
+    box-shadow: var(--shadow-card);
+
+    overflow: hidden;
+
+    transition:
+        transform 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+
+.card:hover {
+    transform: translateY(-3px);
+
+    border-color: var(--color-accent);
+
+    box-shadow: var(--glow-card);
+}
+
+
+/* Featured card */
+
+.card-featured {
+    border-color: var(--color-accent);
+
+    box-shadow: var(--glow-card);
+}
+
+
+/* Interactive card */
+
+.card-interactive {
+    cursor: pointer;
+}
 
 
 /* =========================================================
@@ -70,286 +268,1316 @@
    ========================================================= */
 
 /*
-   Purpose:
-   Global site navigation.
+   Mobile-first navigation.
 
-   Components:
-   - Navigation container
-   - Logo / wordmark
-   - Navigation links
-   - Navigation toggle
-   - Mobile menu
-   - CTA
+   On mobile:
+   - Logo remains visible
+   - Navigation links are hidden
+   - Menu button controls mobile navigation
+
+   Desktop layout will be handled by responsive.css.
 */
 
+.navbar {
+    position: relative;
 
+    width: 100%;
+
+    padding: 1rem;
+
+    background: var(--color-background);
+
+    border-bottom: 1px solid var(--color-border);
+}
+
+
+.nav-logo {
+    display: inline-block;
+
+    color: var(--color-text);
+
+    font-size: 1.1rem;
+    font-weight: 800;
+
+    text-decoration: none;
+}
+
+
+/*
+   The K, I and T in:
+
+   Khethi In Tech
+
+   can receive the branded gradient treatment.
+*/
+
+.nav-logo span {
+    background: var(--gradient-instagram);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent;
+}
+
+
+/* Navigation links */
+
+.nav-links {
+    display: none;
+}
+
+
+.nav-link {
+    position: relative;
+
+    color: var(--color-text);
+
+    font-weight: 500;
+
+    text-decoration: none;
+
+    transition:
+        color 0.2s ease,
+        text-shadow 0.2s ease;
+}
+
+
+.nav-link:hover {
+    color: var(--color-accent);
+}
+
+
+.nav-link.active {
+    color: var(--color-accent);
+
+    text-shadow: var(--glow-text);
+}
+
+
+.nav-link:focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 3px;
+}
+
+
+/* Mobile navigation toggle */
+
+.nav-toggle {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 2.75rem;
+    height: 2.75rem;
+
+    padding: 0;
+
+    background: var(--color-surface);
+
+    border: 1px solid var(--color-border);
+    border-radius: 0.75rem;
+
+    color: var(--color-text);
+
+    cursor: pointer;
+
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+
+.nav-toggle:hover {
+    border-color: var(--color-accent);
+
+    box-shadow: var(--glow-button);
+}
+
+
+.nav-toggle:focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 3px;
+}
+
+
+/* Mobile menu */
+
+.mobile-menu {
+    display: none;
+}
+
+
+.mobile-menu.is-open {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 1rem;
+
+    padding: 1rem 0;
+}
 
 
 /* =========================================================
    5. FOOTER
    ========================================================= */
 
-/*
-   Purpose:
-   Global site footer.
+.footer {
+    padding: 2.5rem 1rem 1.5rem;
 
-   Components:
-   - Footer container
-   - Footer sections
-   - Footer links
-   - Social links
-   - Copyright
-*/
+    background: var(--color-surface);
+
+    border-top: 1px solid var(--color-border);
+}
 
 
+.footer-content {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 2rem;
+}
+
+
+.footer-section {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 0.75rem;
+}
+
+
+.footer-section h2,
+.footer-section h3 {
+    margin: 0;
+
+    color: var(--color-text);
+}
+
+
+.footer-links {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 0.5rem;
+}
+
+
+.footer-link {
+    color: var(--color-muted);
+
+    text-decoration: none;
+
+    transition:
+        color 0.2s ease,
+        text-shadow 0.2s ease;
+}
+
+
+.footer-link:hover {
+    color: var(--color-accent);
+
+    text-shadow: var(--glow-text);
+}
+
+
+.footer-bottom {
+    margin-top: 2rem;
+    padding-top: 1rem;
+
+    border-top: 1px solid var(--color-border);
+
+    color: var(--color-muted);
+
+    font-size: 0.875rem;
+}
 
 
 /* =========================================================
    6. THEME TOGGLE
    ========================================================= */
 
-/*
-   Purpose:
-   Controls the visual appearance of the site.
+.theme-toggle {
+    display: inline-flex;
 
-   States:
-   - Light
-   - Dark
-   - System
-   - Hover
-   - Focus
-*/
+    align-items: center;
+    justify-content: center;
+
+    width: 2.75rem;
+    height: 2.75rem;
+
+    padding: 0;
+
+    background: var(--color-surface);
+
+    border: 1px solid var(--color-border);
+    border-radius: 50%;
+
+    color: var(--color-text);
+
+    cursor: pointer;
+
+    transition:
+        transform 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
 
 
+.theme-toggle:hover {
+    transform: translateY(-2px);
+
+    border-color: var(--color-accent);
+
+    box-shadow: var(--glow-button);
+}
+
+
+.theme-toggle:focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 3px;
+}
+
+
+.theme-toggle-icon {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+}
 
 
 /* =========================================================
    7. BADGES
    ========================================================= */
 
-/*
-   Purpose:
-   Small labels used to identify categories, technologies,
-   statuses, levels, or featured content.
+.badge {
+    display: inline-flex;
 
-   Examples:
-   - Python
-   - Java
-   - SQL
-   - Beginner
-   - Free
-   - New
-   - Featured
-*/
+    align-items: center;
+
+    width: fit-content;
+
+    padding: 0.35rem 0.7rem;
+
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+
+    background: var(--color-surface);
+
+    color: var(--color-text);
+
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1;
+}
 
 
+/* Accent badge */
+
+.badge-accent {
+    border-color: var(--color-accent);
+
+    color: var(--color-accent);
+
+    box-shadow: var(--glow-subtle);
+}
+
+
+/* Success badge */
+
+.badge-success {
+    color: var(--color-success);
+
+    border-color: var(--color-success);
+}
+
+
+/* Warning badge */
+
+.badge-warning {
+    color: var(--color-warning);
+
+    border-color: var(--color-warning);
+}
+
+
+/* Error badge */
+
+.badge-error {
+    color: var(--color-error);
+
+    border-color: var(--color-error);
+}
 
 
 /* =========================================================
    8. FORMS
    ========================================================= */
 
-/*
-   Purpose:
-   Reusable form elements.
+.form {
+    display: flex;
 
-   Components:
-   - Form
-   - Form group
-   - Label
-   - Input
-   - Textarea
-   - Select
-   - Checkbox
-   - Radio
-   - Submit button
+    flex-direction: column;
 
-   States:
-   - Default
-   - Focus
-   - Disabled
-   - Error
-   - Success
-*/
+    gap: 1.25rem;
+}
 
 
+.form-group {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 0.5rem;
+}
+
+
+.form-label {
+    color: var(--color-text);
+
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+
+.form-input,
+.form-textarea,
+.form-select {
+    width: 100%;
+
+    padding: 0.8rem 0.9rem;
+
+    background: var(--color-background);
+
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-input);
+
+    color: var(--color-text);
+
+    font: inherit;
+
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+
+.form-textarea {
+    min-height: 8rem;
+
+    resize: vertical;
+}
+
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+    color: var(--color-muted);
+}
+
+
+.form-input:focus,
+.form-textarea:focus,
+.form-select:focus {
+    border-color: var(--color-accent);
+
+    outline: none;
+
+    box-shadow: var(--glow-input);
+}
+
+
+.form-input:disabled,
+.form-textarea:disabled,
+.form-select:disabled {
+    opacity: 0.5;
+
+    cursor: not-allowed;
+}
+
+
+/* Checkbox and radio */
+
+.form-checkbox,
+.form-radio {
+    accent-color: var(--color-accent);
+}
+
+
+.form-error {
+    color: var(--color-error);
+
+    font-size: 0.875rem;
+}
+
+
+.form-success {
+    color: var(--color-success);
+
+    font-size: 0.875rem;
+}
 
 
 /* =========================================================
    9. ALERTS
    ========================================================= */
 
-/*
-   Purpose:
-   Communicate important information to users.
+.alert {
+    display: flex;
 
-   Variants:
-   - Information
-   - Success
-   - Warning
-   - Error
-*/
+    gap: 0.75rem;
+
+    padding: 1rem;
+
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-card);
+
+    background: var(--color-surface);
+
+    color: var(--color-text);
+}
 
 
+.alert-info {
+    border-color: var(--color-accent);
+}
+
+
+.alert-success {
+    border-color: var(--color-success);
+}
+
+
+.alert-warning {
+    border-color: var(--color-warning);
+}
+
+
+.alert-error {
+    border-color: var(--color-error);
+}
 
 
 /* =========================================================
    10. MODALS
    ========================================================= */
 
-/*
-   Purpose:
-   Overlay content displayed above the current page.
+.modal-overlay {
+    position: fixed;
 
-   Components:
-   - Overlay
-   - Modal
-   - Header
-   - Body
-   - Footer
-   - Close button
-*/
+    inset: 0;
+
+    z-index: 1000;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 1rem;
+
+    background: rgb(0 0 0 / 0.65);
+}
 
 
+.modal {
+    width: min(100%, 32rem);
+    max-height: 90vh;
+
+    overflow-y: auto;
+
+    padding: 1.25rem;
+
+    background: var(--color-surface);
+
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-card);
+
+    box-shadow: var(--glow-card);
+}
+
+
+.modal-header {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 1rem;
+
+    margin-bottom: 1rem;
+}
+
+
+.modal-body {
+    color: var(--color-text);
+}
+
+
+.modal-footer {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 0.75rem;
+
+    margin-top: 1.5rem;
+}
+
+
+.modal-close {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 2.5rem;
+    height: 2.5rem;
+
+    padding: 0;
+
+    background: transparent;
+
+    border: 1px solid var(--color-border);
+    border-radius: 50%;
+
+    color: var(--color-text);
+
+    cursor: pointer;
+}
+
+
+.modal-close:hover {
+    border-color: var(--color-accent);
+
+    box-shadow: var(--glow-button);
+}
+
+
+.modal-close:focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 3px;
+}
 
 
 /* =========================================================
    11. BLOG COMPONENTS
    ========================================================= */
 
-/*
-   Purpose:
-   Reusable components for blog content.
+.blog-card {
+    display: flex;
 
-   Components:
-   - Blog card
-   - Blog metadata
-   - Category
-   - Date
-   - Author
-   - Tags
-   - Article preview
-   - Read more link
-*/
+    flex-direction: column;
+
+    gap: 1rem;
+
+    padding: 1.25rem;
+
+    background: var(--color-surface);
+
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-card);
+
+    transition:
+        transform 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
 
 
+.blog-card:hover {
+    transform: translateY(-3px);
+
+    border-color: var(--color-accent);
+
+    box-shadow: var(--glow-card);
+}
+
+
+.blog-meta {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 0.5rem;
+
+    color: var(--color-muted);
+
+    font-size: 0.8rem;
+}
+
+
+.blog-category {
+    color: var(--color-accent);
+
+    font-weight: 600;
+}
+
+
+.blog-tags {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 0.4rem;
+}
+
+
+.blog-read-more {
+    color: var(--color-accent);
+
+    font-weight: 600;
+
+    text-decoration: none;
+}
+
+
+.blog-read-more:hover {
+    text-shadow: var(--glow-text);
+}
 
 
 /* =========================================================
    12. PROJECT COMPONENTS
    ========================================================= */
 
-/*
-   Purpose:
-   Reusable portfolio/project components.
+.project-card {
+    display: flex;
 
-   Components:
-   - Project card
-   - Project image
-   - Project title
-   - Project description
-   - Technology tags
-   - Project links
-*/
+    flex-direction: column;
+
+    gap: 1rem;
+
+    padding: 1.25rem;
+
+    background: var(--color-surface);
+
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-card);
+
+    transition:
+        transform 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
 
 
+.project-card:hover {
+    transform: translateY(-3px);
+
+    border-color: var(--color-accent);
+
+    box-shadow: var(--glow-card);
+}
+
+
+.project-image {
+    width: 100%;
+
+    aspect-ratio: 16 / 9;
+
+    object-fit: cover;
+
+    border-radius: var(--radius-image);
+}
+
+
+.project-title {
+    margin: 0;
+
+    color: var(--color-text);
+}
+
+
+.project-description {
+    color: var(--color-muted);
+
+    line-height: 1.6;
+}
+
+
+.project-tech {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 0.4rem;
+}
+
+
+.project-links {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 0.75rem;
+
+    margin-top: auto;
+}
 
 
 /* =========================================================
    13. RESOURCE COMPONENTS
    ========================================================= */
 
-/*
-   Purpose:
-   Components for free resources and educational material.
+.resource-card {
+    display: flex;
 
-   Components:
-   - Resource card
-   - Resource category
-   - Resource description
-   - Download link
-   - Resource metadata
-*/
+    flex-direction: column;
+
+    gap: 0.75rem;
+
+    padding: 1.25rem;
+
+    background: var(--color-surface);
+
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-card);
+
+    transition:
+        transform 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
 
 
+.resource-card:hover {
+    transform: translateY(-3px);
+
+    border-color: var(--color-accent);
+
+    box-shadow: var(--glow-card);
+}
+
+
+.resource-category {
+    color: var(--color-accent);
+
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+
+.resource-title {
+    margin: 0;
+
+    color: var(--color-text);
+}
+
+
+.resource-description {
+    color: var(--color-muted);
+
+    line-height: 1.6;
+}
+
+
+.resource-download {
+    margin-top: auto;
+
+    color: var(--color-accent);
+
+    font-weight: 600;
+
+    text-decoration: none;
+}
+
+
+.resource-download:hover {
+    text-shadow: var(--glow-text);
+}
 
 
 /* =========================================================
    14. PRODUCT COMPONENTS
    ========================================================= */
 
-/*
-   Purpose:
-   Components for digital products.
+.product-card {
+    display: flex;
 
-   Components:
-   - Product card
-   - Product image
-   - Product title
-   - Product description
-   - Product price
-   - Product badge
-   - Product CTA
-*/
+    flex-direction: column;
+
+    gap: 1rem;
+
+    padding: 1.25rem;
+
+    background: var(--color-surface);
+
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-card);
+
+    transition:
+        transform 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
 
 
+.product-card:hover {
+    transform: translateY(-3px);
+
+    border-color: var(--color-accent);
+
+    box-shadow: var(--glow-card);
+}
+
+
+.product-image {
+    width: 100%;
+
+    aspect-ratio: 4 / 3;
+
+    object-fit: cover;
+
+    border-radius: var(--radius-image);
+}
+
+
+.product-title {
+    margin: 0;
+
+    color: var(--color-text);
+}
+
+
+.product-description {
+    color: var(--color-muted);
+
+    line-height: 1.6;
+}
+
+
+.product-price {
+    color: var(--color-text);
+
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+
+.product-badge {
+    align-self: flex-start;
+
+    padding: 0.35rem 0.7rem;
+
+    border-radius: 999px;
+
+    background: var(--gradient-instagram);
+
+    color: #ffffff;
+
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+
+.product-cta {
+    margin-top: auto;
+}
 
 
 /* =========================================================
    15. COURSE COMPONENTS
    ========================================================= */
 
-/*
-   Purpose:
-   Components for courses and course recommendations.
+.course-card {
+    display: flex;
 
-   Components:
-   - Course card
-   - Course provider
-   - Course title
-   - Course description
-   - Difficulty level
-   - Price
-   - Course CTA
-*/
+    flex-direction: column;
+
+    gap: 0.75rem;
+
+    padding: 1.25rem;
+
+    background: var(--color-surface);
+
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-card);
+
+    transition:
+        transform 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
 
 
+.course-card:hover {
+    transform: translateY(-3px);
+
+    border-color: var(--color-accent);
+
+    box-shadow: var(--glow-card);
+}
+
+
+.course-provider {
+    color: var(--color-accent);
+
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+
+.course-title {
+    margin: 0;
+
+    color: var(--color-text);
+}
+
+
+.course-description {
+    color: var(--color-muted);
+
+    line-height: 1.6;
+}
+
+
+.course-level {
+    display: inline-flex;
+
+    align-self: flex-start;
+
+    padding: 0.35rem 0.7rem;
+
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+
+    color: var(--color-muted);
+
+    font-size: 0.75rem;
+}
+
+
+.course-price {
+    color: var(--color-text);
+
+    font-weight: 700;
+}
+
+
+.course-cta {
+    margin-top: auto;
+}
 
 
 /* =========================================================
    16. SOCIAL COMPONENTS
    ========================================================= */
 
-/*
-   Purpose:
-   Reusable social media elements.
+.social-links {
+    display: flex;
 
-   Components:
-   - Social links
-   - Social buttons
-   - Social icons
-   - Social cards
-*/
+    flex-wrap: wrap;
+
+    gap: 0.75rem;
+}
 
 
+.social-link {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 2.75rem;
+    height: 2.75rem;
+
+    border: 1px solid var(--color-border);
+    border-radius: 50%;
+
+    background: var(--color-surface);
+
+    color: var(--color-text);
+
+    text-decoration: none;
+
+    transition:
+        transform 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease,
+        color 0.2s ease;
+}
+
+
+.social-link:hover {
+    transform: translateY(-2px);
+
+    border-color: var(--color-accent);
+
+    color: var(--color-accent);
+
+    box-shadow: var(--glow-button);
+}
+
+
+.social-link:focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 3px;
+}
+
+
+.social-icon {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+}
 
 
 /* =========================================================
    17. HERO BASE
    ========================================================= */
 
+.hero {
+    position: relative;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 2rem;
+
+    padding: 4rem 1rem;
+
+    overflow: hidden;
+}
+
+
+.hero-content {
+    position: relative;
+
+    z-index: 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 1.25rem;
+}
+
+
+.hero-title {
+    margin: 0;
+
+    color: var(--color-text);
+
+    font-size: clamp(2.25rem, 10vw, 4.5rem);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+}
+
+
 /*
-   Purpose:
-   Base styles for reusable hero sections.
+   Example:
 
-   Components:
-   - Hero container
-   - Hero content
-   - Hero heading
-   - Hero description
-   - Hero actions
-   - Hero media
-
-   Page-specific hero styling belongs in the relevant
-   page stylesheet.
+   <span>K</span>hethi <span>I</span>n <span>T</span>ech
 */
+
+.hero-title span {
+    background: var(--gradient-instagram);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent;
+}
+
+
+.hero-description {
+    max-width: 40rem;
+
+    color: var(--color-muted);
+
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+
+.hero-actions {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: stretch;
+
+    gap: 0.75rem;
+}
+
+
+.hero-media {
+    position: relative;
+
+    z-index: 1;
+}
+
+
+.hero-media img {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    border-radius: var(--radius-image);
+}
+
+
+/* =========================================================
+   18. GLOW EFFECTS
+   ========================================================= */
+
+/*
+   The glow is part of the Khethi in Tech visual identity.
+
+   Use it selectively.
+
+   Not everything needs to glow.
+*/
+
+.glow {
+    box-shadow: var(--glow-card);
+}
+
+
+.glow-strong {
+    box-shadow: var(--glow-strong);
+}
+
+
+.glow-text {
+    text-shadow: var(--glow-text);
+}
+
+
+.glow-image {
+    position: relative;
+}
+
+
+/*
+   The pseudo-element creates a soft coloured halo
+   behind an image without changing the image itself.
+*/
+
+.glow-image::before {
+    content: "";
+
+    position: absolute;
+
+    inset: 10%;
+
+    z-index: -1;
+
+    background: var(--gradient-instagram);
+
+    filter: blur(45px);
+
+    opacity: 0.45;
+
+    border-radius: 50%;
+}
+
+
+.glow-active {
+    box-shadow: var(--glow-button);
+}
+
+
+/* =========================================================
+   19. BRAND ACCENTS
+   ========================================================= */
+
+/*
+   Brand treatment for:
+
+   <span>K</span>hethi
+   <span>I</span>n
+   <span>T</span>ech
+*/
+
+.brand-accent {
+    background: var(--gradient-instagram);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent;
+}
+
+
+.brand-accent span {
+    background: var(--gradient-instagram);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent;
+}
+
+
+/* =========================================================
+   20. MOBILE-FIRST LAYOUT HELPERS
+   ========================================================= */
+
+/*
+   These helpers provide reusable spacing and grouping
+   without tying the styles to a specific page.
+*/
+
+.stack {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 1rem;
+}
+
+
+.cluster {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    align-items: center;
+
+    gap: 0.75rem;
+}
+
+
+.center-content {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+
+/* =========================================================
+   21. REDUCED MOTION
+   ========================================================= */
+
+/*
+   Accessibility:
+   Users who request reduced motion should not receive
+   unnecessary animations or transitions.
+*/
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+    }
+}
