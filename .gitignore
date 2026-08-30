@@ -7,7 +7,7 @@ Thumbs.db
 .idea/
 
 # Logs
-*.log
+*.log 
 
 # Environment variables
 .env
