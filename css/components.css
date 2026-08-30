@@ -1,0 +1,355 @@
+/* =========================================================
+   Khethi in Tech
+   Reusable UI Components
+   ========================================================= */
+
+
+/* =========================================================
+   1. BUTTONS
+   ========================================================= */
+
+/*
+   Purpose:
+   Reusable buttons and call-to-action elements.
+
+   Planned variants:
+   - Primary
+   - Secondary
+   - Outline
+   - Ghost
+   - Icon
+
+   Planned states:
+   - Default
+   - Hover
+   - Focus
+   - Active
+   - Disabled
+*/
+
+
+
+
+/* =========================================================
+   2. LINKS
+   ========================================================= */
+
+/*
+   Purpose:
+   Reusable link styles.
+
+   Planned variants:
+   - Standard link
+   - Navigation link
+   - External link
+   - Accent link
+*/
+
+
+
+
+/* =========================================================
+   3. CARDS
+   ========================================================= */
+
+/*
+   Purpose:
+   Base styling shared by reusable content cards.
+
+   Planned variants:
+   - Standard card
+   - Featured card
+   - Interactive card
+*/
+
+
+
+
+/* =========================================================
+   4. NAVIGATION
+   ========================================================= */
+
+/*
+   Purpose:
+   Global site navigation.
+
+   Components:
+   - Navigation container
+   - Logo / wordmark
+   - Navigation links
+   - Navigation toggle
+   - Mobile menu
+   - CTA
+*/
+
+
+
+
+/* =========================================================
+   5. FOOTER
+   ========================================================= */
+
+/*
+   Purpose:
+   Global site footer.
+
+   Components:
+   - Footer container
+   - Footer sections
+   - Footer links
+   - Social links
+   - Copyright
+*/
+
+
+
+
+/* =========================================================
+   6. THEME TOGGLE
+   ========================================================= */
+
+/*
+   Purpose:
+   Controls the visual appearance of the site.
+
+   States:
+   - Light
+   - Dark
+   - System
+   - Hover
+   - Focus
+*/
+
+
+
+
+/* =========================================================
+   7. BADGES
+   ========================================================= */
+
+/*
+   Purpose:
+   Small labels used to identify categories, technologies,
+   statuses, levels, or featured content.
+
+   Examples:
+   - Python
+   - Java
+   - SQL
+   - Beginner
+   - Free
+   - New
+   - Featured
+*/
+
+
+
+
+/* =========================================================
+   8. FORMS
+   ========================================================= */
+
+/*
+   Purpose:
+   Reusable form elements.
+
+   Components:
+   - Form
+   - Form group
+   - Label
+   - Input
+   - Textarea
+   - Select
+   - Checkbox
+   - Radio
+   - Submit button
+
+   States:
+   - Default
+   - Focus
+   - Disabled
+   - Error
+   - Success
+*/
+
+
+
+
+/* =========================================================
+   9. ALERTS
+   ========================================================= */
+
+/*
+   Purpose:
+   Communicate important information to users.
+
+   Variants:
+   - Information
+   - Success
+   - Warning
+   - Error
+*/
+
+
+
+
+/* =========================================================
+   10. MODALS
+   ========================================================= */
+
+/*
+   Purpose:
+   Overlay content displayed above the current page.
+
+   Components:
+   - Overlay
+   - Modal
+   - Header
+   - Body
+   - Footer
+   - Close button
+*/
+
+
+
+
+/* =========================================================
+   11. BLOG COMPONENTS
+   ========================================================= */
+
+/*
+   Purpose:
+   Reusable components for blog content.
+
+   Components:
+   - Blog card
+   - Blog metadata
+   - Category
+   - Date
+   - Author
+   - Tags
+   - Article preview
+   - Read more link
+*/
+
+
+
+
+/* =========================================================
+   12. PROJECT COMPONENTS
+   ========================================================= */
+
+/*
+   Purpose:
+   Reusable portfolio/project components.
+
+   Components:
+   - Project card
+   - Project image
+   - Project title
+   - Project description
+   - Technology tags
+   - Project links
+*/
+
+
+
+
+/* =========================================================
+   13. RESOURCE COMPONENTS
+   ========================================================= */
+
+/*
+   Purpose:
+   Components for free resources and educational material.
+
+   Components:
+   - Resource card
+   - Resource category
+   - Resource description
+   - Download link
+   - Resource metadata
+*/
+
+
+
+
+/* =========================================================
+   14. PRODUCT COMPONENTS
+   ========================================================= */
+
+/*
+   Purpose:
+   Components for digital products.
+
+   Components:
+   - Product card
+   - Product image
+   - Product title
+   - Product description
+   - Product price
+   - Product badge
+   - Product CTA
+*/
+
+
+
+
+/* =========================================================
+   15. COURSE COMPONENTS
+   ========================================================= */
+
+/*
+   Purpose:
+   Components for courses and course recommendations.
+
+   Components:
+   - Course card
+   - Course provider
+   - Course title
+   - Course description
+   - Difficulty level
+   - Price
+   - Course CTA
+*/
+
+
+
+
+/* =========================================================
+   16. SOCIAL COMPONENTS
+   ========================================================= */
+
+/*
+   Purpose:
+   Reusable social media elements.
+
+   Components:
+   - Social links
+   - Social buttons
+   - Social icons
+   - Social cards
+*/
+
+
+
+
+/* =========================================================
+   17. HERO BASE
+   ========================================================= */
+
+/*
+   Purpose:
+   Base styles for reusable hero sections.
+
+   Components:
+   - Hero container
+   - Hero content
+   - Hero heading
+   - Hero description
+   - Hero actions
+   - Hero media
+
+   Page-specific hero styling belongs in the relevant
+   page stylesheet.
+*/
