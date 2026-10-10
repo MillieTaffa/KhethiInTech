@@ -1,0 +1,615 @@
+[
+  {
+    "id": "mdn-web",
+    "title": "MDN Learn web development",
+    "provider": "Mozilla",
+    "category": "web",
+    "description": "Structured HTML, CSS and JavaScript lessons with practical examples and accessibility guidance.",
+    "tags": [
+      "html",
+      "css",
+      "javascript",
+      "frontend",
+      "accessibility",
+      "beginner"
+    ],
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+    "checkedAt": "2026-10-10",
+    "level": "beginner",
+    "access": "free"
+  },
+  {
+    "id": "javascript-mdn",
+    "title": "JavaScript Guide",
+    "provider": "Mozilla",
+    "category": "javascript",
+    "description": "Core JavaScript concepts, objects, functions, promises and modules from the language reference publisher.",
+    "tags": [
+      "javascript",
+      "programming",
+      "frontend",
+      "backend"
+    ],
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+    "checkedAt": "2026-10-10",
+    "level": "intermediate",
+    "access": "free"
+  },
+  {
+    "id": "python-docs",
+    "title": "Python tutorial",
+    "provider": "Python Software Foundation",
+    "category": "python",
+    "description": "The official Python tutorial introduces syntax, data structures, modules, errors and classes.",
+    "tags": [
+      "python",
+      "programming",
+      "beginner"
+    ],
+    "url": "https://docs.python.org/3/tutorial/",
+    "checkedAt": "2026-10-10",
+    "level": "beginner",
+    "access": "free"
+  },
+  {
+    "id": "java-dev",
+    "title": "dev.java — Java learning and tutorials",
+    "provider": "Oracle",
+    "category": "java",
+    "description": "Official Java language learning material, including object-oriented programming, collections, concurrency and tools.",
+    "tags": [
+      "java",
+      "object-oriented-programming",
+      "programming"
+    ],
+    "url": "https://dev.java/learn/",
+    "checkedAt": "2026-10-10",
+    "level": "beginner",
+    "access": "free"
+  },
+  {
+    "id": "postgres-tutorial",
+    "title": "PostgreSQL tutorial",
+    "provider": "PostgreSQL Global Development Group",
+    "category": "databases",
+    "description": "Official introduction to relational database concepts and SQL with PostgreSQL.",
+    "tags": [
+      "sql",
+      "postgresql",
+      "databases",
+      "backend"
+    ],
+    "url": "https://www.postgresql.org/docs/current/tutorial.html",
+    "checkedAt": "2026-10-10",
+    "level": "beginner",
+    "access": "free"
+  },
+  {
+    "id": "sqlite-sql",
+    "title": "SQLite SQL language reference",
+    "provider": "SQLite",
+    "category": "databases",
+    "description": "A concise reference for SQL statements and expressions supported by SQLite.",
+    "tags": [
+      "sql",
+      "sqlite",
+      "databases"
+    ],
+    "url": "https://www.sqlite.org/lang.html",
+    "checkedAt": "2026-10-10",
+    "level": "intermediate",
+    "access": "free"
+  },
+  {
+    "id": "sqlbolt",
+    "title": "SQLBolt interactive lessons",
+    "provider": "SQLBolt",
+    "category": "databases",
+    "description": "Short interactive lessons and exercises for practising SQL queries in a browser.",
+    "tags": [
+      "sql",
+      "databases",
+      "practice"
+    ],
+    "url": "https://sqlbolt.com/",
+    "checkedAt": "2026-10-10",
+    "level": "beginner",
+    "access": "free"
+  },
+  {
+    "id": "git-book",
+    "title": "Pro Git",
+    "provider": "Git",
+    "category": "git",
+    "description": "The complete Pro Git book is available to read online, from basic commands to collaboration and internals.",
+    "tags": [
+      "git",
+      "github",
+      "open-source",
+      "tools"
+    ],
+    "url": "https://git-scm.com/book/en/v2",
+    "checkedAt": "2026-10-10",
+    "level": "beginner",
+    "access": "free"
+  },
+  {
+    "id": "github-skills",
+    "title": "GitHub Skills",
+    "provider": "GitHub",
+    "category": "git",
+    "description": "Interactive, repository-based courses for GitHub workflows, pull requests, Markdown and automation.",
+    "tags": [
+      "git",
+      "github",
+      "open-source",
+      "practice"
+    ],
+    "url": "https://skills.github.com/",
+    "checkedAt": "2026-10-10",
+    "level": "beginner",
+    "access": "free"
+  },
+  {
+    "id": "missing-semester",
+    "title": "The Missing Semester of Your CS Education",
+    "provider": "MIT",
+    "category": "linux",
+    "description": "Practical lessons on shell tools, editors, version control, debugging, security and command-line workflows.",
+    "tags": [
+      "linux",
+      "bash",
+      "git",
+      "tools",
+      "computer-science"
+    ],
+    "url": "https://missing.csail.mit.edu/",
+    "checkedAt": "2026-10-10",
+    "level": "beginner",
+    "access": "free"
+  },
+  {
+    "id": "linux-journey",
+    "title": "Linux Journey",
+    "provider": "Linux Journey / LabEx",
+    "category": "linux",
+    "description": "The official Linux Journey beginner lessons now live on LabEx. The provider says the lessons are free and open source; separate LabEx practice products can have their own conditions.",
+    "tags": [
+      "linux",
+      "bash",
+      "systems",
+      "networking"
+    ],
+    "url": "https://labex.io/linuxjourney",
+    "checkedAt": "2026-10-10",
+    "level": "beginner",
+    "access": "free"
+  },
+  {
+    "id": "docker-get-started",
+    "title": "Docker Get Started",
+    "provider": "Docker",
+    "category": "devops",
+    "description": "Official hands-on introduction to containers, images, Dockerfiles and multi-container applications.",
+    "tags": [
+      "docker",
+      "devops",
+      "containers",
+      "backend"
+    ],
+    "url": "https://docs.docker.com/get-started/",
+    "checkedAt": "2026-10-10",
+    "level": "beginner",
+    "access": "free"
+  },
+  {
+    "id": "github-actions",
+    "title": "GitHub Actions documentation",
+    "provider": "GitHub",
+    "category": "devops",
+    "description": "Learn continuous integration and delivery workflows using GitHub Actions; hosted runner usage has service limits and terms.",
+    "tags": [
+      "ci-cd",
+      "devops",
+      "github",
+      "testing"
+    ],
+    "url": "https://docs.github.com/en/actions",
+    "checkedAt": "2026-10-10",
+    "level": "intermediate",
+    "access": "limited-free"
+  },
+  {
+    "id": "cloudflare-workers",
+    "title": "Cloudflare Developers",
+    "provider": "Cloudflare",
+    "category": "cloud",
+    "description": "Developer documentation, tutorials and examples for web performance, security, networking and serverless development.",
+    "tags": [
+      "cloud",
+      "serverless",
+      "web",
+      "security",
+      "apis"
+    ],
+    "url": "https://developers.cloudflare.com/",
+    "checkedAt": "2026-10-10",
+    "level": "all-levels",
+    "access": "limited-free"
+  },
+  {
+    "id": "aws-skill-builder",
+    "title": "AWS Skill Builder — free digital training",
+    "provider": "Amazon Web Services",
+    "category": "cloud",
+    "description": "Search AWS training and digital learning. Some courses are free; subscriptions, labs and certification exams may cost extra, so check each item.",
+    "tags": [
+      "aws",
+      "cloud",
+      "devops",
+      "data"
+    ],
+    "url": "https://skillbuilder.aws/",
+    "checkedAt": "2026-10-10",
+    "level": "all-levels",
+    "access": "limited-free"
+  },
+  {
+    "id": "pandas-getting-started",
+    "title": "pandas getting started",
+    "provider": "pandas",
+    "category": "data",
+    "description": "Official tutorials for loading, cleaning, selecting, grouping and visualising tabular data in Python.",
+    "tags": [
+      "python",
+      "data-analysis",
+      "data-visualisation",
+      "pandas"
+    ],
+    "url": "https://pandas.pydata.org/docs/getting_started/index.html",
+    "checkedAt": "2026-10-10",
+    "level": "beginner",
+    "access": "free"
+  },
+  {
+    "id": "kaggle-datasets",
+    "title": "Kaggle datasets and notebooks",
+    "provider": "Kaggle",
+    "category": "data",
+    "description": "Explore public datasets and runnable notebooks for data analysis and machine-learning practice; competition terms vary.",
+    "tags": [
+      "data",
+      "python",
+      "machine-learning",
+      "practice"
+    ],
+    "url": "https://www.kaggle.com/datasets",
+    "checkedAt": "2026-10-10",
+    "level": "all-levels",
+    "access": "limited-free"
+  },
+  {
+    "id": "owasp-top10",
+    "title": "OWASP Top 10",
+    "provider": "OWASP Foundation",
+    "category": "security",
+    "description": "An awareness document describing prominent web application security risks. Use it as a starting point, not a complete security checklist.",
+    "tags": [
+      "security",
+      "web",
+      "backend",
+      "owasp"
+    ],
+    "url": "https://owasp.org/www-project-top-ten/",
+    "checkedAt": "2026-10-10",
+    "level": "intermediate",
+    "access": "free"
+  },
+  {
+    "id": "owasp-webgoat",
+    "title": "OWASP WebGoat",
+    "provider": "OWASP Foundation",
+    "category": "security",
+    "description": "An intentionally insecure application for learning common web application security lessons in an authorised local environment.",
+    "tags": [
+      "security",
+      "web",
+      "practice",
+      "java"
+    ],
+    "url": "https://owasp.org/www-project-webgoat/",
+    "checkedAt": "2026-10-10",
+    "level": "intermediate",
+    "access": "free"
+  },
+  {
+    "id": "portswigger-labs",
+    "title": "PortSwigger Web Security Academy labs",
+    "provider": "PortSwigger",
+    "category": "security",
+    "description": "Free interactive labs for practising web security topics. Only test systems you own or are explicitly authorised to assess.",
+    "tags": [
+      "security",
+      "web",
+      "practice",
+      "apis"
+    ],
+    "url": "https://portswigger.net/web-security/all-labs",
+    "checkedAt": "2026-10-10",
+    "level": "beginner",
+    "access": "free"
+  },
+  {
+    "id": "over-the-wire",
+    "title": "OverTheWire Bandit",
+    "provider": "OverTheWire",
+    "category": "security",
+    "description": "A legal beginner wargame for practising Linux commands and basic security concepts through SSH challenges.",
+    "tags": [
+      "linux",
+      "security",
+      "bash",
+      "practice"
+    ],
+    "url": "https://overthewire.org/wargames/bandit/",
+    "checkedAt": "2026-10-10",
+    "level": "beginner",
+    "access": "free"
+  },
+  {
+    "id": "algorithm-visualiser",
+    "title": "VisuAlgo",
+    "provider": "National University of Singapore",
+    "category": "algorithms",
+    "description": "Animated visualisations and quiz exercises for data structures and algorithms.",
+    "tags": [
+      "algorithms",
+      "computer-science",
+      "practice"
+    ],
+    "url": "https://visualgo.net/en",
+    "checkedAt": "2026-10-10",
+    "level": "beginner",
+    "access": "free"
+  },
+  {
+    "id": "project-euler",
+    "title": "Project Euler",
+    "provider": "Project Euler",
+    "category": "algorithms",
+    "description": "Mathematical and programming problems designed to build problem-solving skills progressively.",
+    "tags": [
+      "algorithms",
+      "programming",
+      "practice",
+      "mathematics"
+    ],
+    "url": "https://projecteuler.net/",
+    "checkedAt": "2026-10-10",
+    "level": "intermediate",
+    "access": "free"
+  },
+  {
+    "id": "exercism",
+    "title": "Exercism coding practice",
+    "provider": "Exercism",
+    "category": "practice",
+    "description": "Free language tracks with coding exercises, tests and community mentoring; track availability varies by language.",
+    "tags": [
+      "practice",
+      "java",
+      "python",
+      "javascript",
+      "programming"
+    ],
+    "url": "https://exercism.org/tracks",
+    "checkedAt": "2026-10-10",
+    "level": "all-levels",
+    "access": "free"
+  },
+  {
+    "id": "playwright-docs",
+    "title": "Playwright documentation",
+    "provider": "Microsoft Playwright",
+    "category": "testing",
+    "description": "Official documentation for end-to-end testing web applications across Chromium, Firefox and WebKit.",
+    "tags": [
+      "testing",
+      "qa",
+      "javascript",
+      "web"
+    ],
+    "url": "https://playwright.dev/docs/intro",
+    "checkedAt": "2026-10-10",
+    "level": "intermediate",
+    "access": "free"
+  },
+  {
+    "id": "testing-library",
+    "title": "Testing Library",
+    "provider": "Testing Library",
+    "category": "testing",
+    "description": "Guidance and tools for testing user-facing behavior in web applications.",
+    "tags": [
+      "testing",
+      "qa",
+      "javascript",
+      "accessibility"
+    ],
+    "url": "https://testing-library.com/docs/",
+    "checkedAt": "2026-10-10",
+    "level": "intermediate",
+    "access": "free"
+  },
+  {
+    "id": "openapi-guide",
+    "title": "OpenAPI Specification and learning resources",
+    "provider": "OpenAPI Initiative",
+    "category": "apis",
+    "description": "Learn how to describe HTTP APIs using the OpenAPI standard and browse official examples and tools.",
+    "tags": [
+      "apis",
+      "backend",
+      "documentation",
+      "testing"
+    ],
+    "url": "https://learn.openapis.org/",
+    "checkedAt": "2026-10-10",
+    "level": "intermediate",
+    "access": "free"
+  },
+  {
+    "id": "google-tech-writing",
+    "title": "Google Technical Writing Courses",
+    "provider": "Google Developers",
+    "category": "communication",
+    "description": "Free self-paced lessons on technical writing, documentation and developer communication.",
+    "tags": [
+      "communication",
+      "writing",
+      "documentation",
+      "career"
+    ],
+    "url": "https://developers.google.com/tech-writing",
+    "checkedAt": "2026-10-10",
+    "level": "beginner",
+    "access": "free"
+  },
+  {
+    "id": "opensource-guide",
+    "title": "How to Contribute to Open Source",
+    "provider": "GitHub Open Source Guides",
+    "category": "open-source",
+    "description": "A practical guide to finding projects, making contributions and working with maintainers.",
+    "tags": [
+      "open-source",
+      "github",
+      "git",
+      "career"
+    ],
+    "url": "https://opensource.guide/how-to-contribute/",
+    "checkedAt": "2026-10-10",
+    "level": "beginner",
+    "access": "free"
+  },
+  {
+    "id": "web-accessibility",
+    "title": "W3C Web Accessibility Initiative",
+    "provider": "W3C WAI",
+    "category": "accessibility",
+    "description": "Standards-based explanations, tutorials and evaluation guidance for building accessible digital experiences.",
+    "tags": [
+      "accessibility",
+      "web",
+      "design",
+      "frontend"
+    ],
+    "url": "https://www.w3.org/WAI/fundamentals/accessibility-intro/",
+    "checkedAt": "2026-10-10",
+    "level": "beginner",
+    "access": "free"
+  },
+  {
+    "id": "webdev-accessibility",
+    "title": "web.dev Learn Accessibility",
+    "provider": "Google Chrome for Developers",
+    "category": "accessibility",
+    "description": "A practical course on accessible web interfaces, semantics, keyboard use and assistive technology.",
+    "tags": [
+      "accessibility",
+      "web",
+      "frontend",
+      "design"
+    ],
+    "url": "https://web.dev/learn/accessibility/",
+    "checkedAt": "2026-10-10",
+    "level": "beginner",
+    "access": "free"
+  },
+  {
+    "id": "europass-cv",
+    "title": "Europass CV builder",
+    "provider": "European Union",
+    "category": "career",
+    "description": "A free online CV builder and profile tool. Review privacy and data terms before saving personal information.",
+    "tags": [
+      "cv",
+      "career",
+      "job-search",
+      "templates"
+    ],
+    "url": "https://europa.eu/europass/en/create-europass-cv",
+    "checkedAt": "2026-10-10",
+    "level": "beginner",
+    "access": "free"
+  },
+  {
+    "id": "github-student-pack",
+    "title": "GitHub Student Developer Pack",
+    "provider": "GitHub Education",
+    "category": "student-support",
+    "description": "Student-verified developer tools and learning benefits. Offers change over time; review eligibility and each partner's terms.",
+    "tags": [
+      "student",
+      "developer-tools",
+      "career",
+      "github"
+    ],
+    "url": "https://education.github.com/pack",
+    "checkedAt": "2026-10-10",
+    "level": "student",
+    "access": "limited-free"
+  },
+  {
+    "id": "mdn-http",
+    "title": "MDN HTTP overview",
+    "provider": "Mozilla",
+    "category": "apis",
+    "description": "A clear overview of HTTP requests, responses, methods, headers, caching and security.",
+    "tags": [
+      "apis",
+      "backend",
+      "web",
+      "networking"
+    ],
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview",
+    "checkedAt": "2026-10-10",
+    "level": "beginner",
+    "access": "free"
+  },
+  {
+    "id": "freecodecamp-interview",
+    "title": "freeCodeCamp interview preparation",
+    "provider": "freeCodeCamp",
+    "category": "career",
+    "description": "Free programming interview practice and learning material; role requirements vary between employers.",
+    "tags": [
+      "interview",
+      "career",
+      "algorithms",
+      "programming"
+    ],
+    "url": "https://www.freecodecamp.org/learn/",
+    "checkedAt": "2026-10-10",
+    "level": "intermediate",
+    "access": "free"
+  },
+  {
+    "id": "sa-youth",
+    "title": "SAYouth.mobi opportunity portal",
+    "provider": "SAYouth",
+    "category": "student-support",
+    "description": "South African youth opportunity platform. Search the official portal for current programmes and confirm each listing's terms before applying.",
+    "tags": [
+      "south-africa",
+      "jobs",
+      "learnerships",
+      "training",
+      "funding"
+    ],
+    "url": "https://sayouth.mobi/",
+    "checkedAt": "2026-10-10",
+    "level": "student",
+    "access": "limited-free"
+  }
+]

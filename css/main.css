@@ -141,6 +141,7 @@ p { margin: 0; }
 .search-panel { width: min(680px, 100%); max-height: 75vh; overflow: auto; padding: 1rem; border: 1px solid var(--line); border-radius: 1.1rem; background: var(--surface); box-shadow: var(--shadow); }
 .search-top { display: flex; align-items: center; gap: .7rem; }
 .search-input { width: 100%; min-height: 3rem; padding: .7rem .85rem; border: 1px solid var(--line); border-radius: .7rem; background: var(--page); color: var(--text); }
+.search-category { display: grid; gap: .35rem; margin-top: .8rem; color: var(--muted); font-size: .82rem; font-weight: 700; }
 .search-close { width: 2.7rem; height: 2.7rem; border: 1px solid var(--line); border-radius: .7rem; background: var(--surface); cursor: pointer; }
 .search-hint { margin: .65rem .15rem; color: var(--muted); font-size: .8rem; }
 .search-results { display: grid; gap: .45rem; }
@@ -149,6 +150,45 @@ p { margin: 0; }
 .search-result strong { display: block; }
 .search-result span { display: block; margin-top: .2rem; color: var(--muted); font-size: .84rem; }
 
+.catalog-controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr)); align-items: end; gap: .8rem; margin-block: 1rem; }
+.catalog-controls label, [data-opportunity-tracker] label { display: grid; gap: .3rem; color: var(--muted); font-size: .82rem; font-weight: 700; }
+.catalog-controls .search-input, [data-opportunity-tracker] .search-input { min-width: 0; }
+.catalog-card[hidden] { display: none !important; }
+.catalog-card-head { display: flex; width: 100%; align-items: flex-start; justify-content: space-between; gap: .6rem; flex-wrap: wrap; }
+.provider { color: var(--accent-strong) !important; font-size: .88rem; font-weight: 700; }
+.fact-list { display: grid; width: 100%; gap: .55rem; margin: 1rem 0 0; }
+.fact-list > div { display: grid; grid-template-columns: minmax(105px, .65fr) minmax(0, 1.35fr); gap: .6rem; padding-top: .5rem; border-top: 1px solid var(--line); }
+.fact-list dt { color: var(--muted); font-size: .78rem; font-weight: 700; }
+.fact-list dd { margin: 0; font-size: .84rem; overflow-wrap: anywhere; }
+.catalog-details { width: 100%; margin-top: 1rem; border-top: 1px solid var(--line); padding-top: .7rem; }
+.catalog-details summary { color: var(--accent-strong); font-size: .86rem; font-weight: 700; cursor: pointer; }
+.catalog-details[open] { padding-bottom: .4rem; }
+.fact-grid { display: grid; width: 100%; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .65rem; margin-top: 1rem; }
+.fact-grid > div { padding: .75rem; border: 1px solid var(--line); border-radius: .75rem; background: var(--surface-raised); }
+.fact-grid strong, .fact-grid span { display: block; }
+.fact-grid strong { color: var(--muted); font-size: .75rem; }
+.fact-grid span { margin-top: .2rem; font-size: .86rem; overflow-wrap: anywhere; }
+.card-actions { display: flex; width: 100%; flex-wrap: wrap; align-items: center; gap: .6rem; margin-top: auto; padding-top: 1.2rem; }
+.card-actions .button { font-size: .86rem; }
+.text-button { padding: .45rem .2rem; border: 0; background: transparent; color: var(--accent-strong); font-size: .82rem; font-weight: 700; text-decoration: underline; text-underline-offset: .2em; cursor: pointer; }
+.report-status { flex-basis: 100%; }
+.referral-disclosure { width: 100%; margin-top: 1rem; }
+.category-chips { max-height: 14rem; overflow: auto; padding: .2rem .2rem .6rem; }
+.archive-block { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--line); }
+.archive-block h3 { margin-bottom: .5rem; }
+.archive-block > .grid { margin-top: 1rem; }
+.pitch-template { display: grid; gap: .45rem; margin-top: 1rem; }
+.hub-grid .card { min-height: 15rem; }
+.tracker-card { gap: .5rem; }
+.tracker-card .search-input { width: 100%; }
+.tracker-card .tracker-note { resize: vertical; }
+.tracker-card .text-link { margin-top: .3rem; }
+.course-grid, .resource-grid, .opportunity-grid { align-items: stretch; }
+
+@media (max-width: 1120px) {
+  .primary-nav { display: none; }
+  .menu-button { display: inline-grid; }
+}
 @media (max-width: 920px) {
   .primary-nav { display: none; }
   .menu-button { display: inline-grid; }
@@ -168,6 +208,10 @@ p { margin: 0; }
   .section-heading { display: block; }
   .section-heading .text-link { display: inline-block; margin-top: .8rem; }
   .grid, .grid-2 { grid-template-columns: 1fr; }
+  .fact-grid { grid-template-columns: 1fr; }
+  .catalog-card-head { display: grid; }
+  .fact-list > div { grid-template-columns: 1fr; gap: .15rem; }
+  .category-chips { max-height: 11rem; }
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 1.5rem; }
   .footer-grid > :first-child { grid-column: 1 / -1; }
   .footer-bottom { display: block; }

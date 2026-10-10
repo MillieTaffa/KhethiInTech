@@ -23,7 +23,11 @@ index.html                  Homepage and static-site entry point
 assets/images/              Khethi’s portrait and KIT favicon
 css/main.css                Shared themes, layout and components
 js/main.js                  Theme, navigation, search and filters
-data/search-index.json      Searchable page summaries and destinations
+data/courses.json           Curated course records
+data/resources.json         Curated free resource records
+data/opportunities.json     Shared Plug Hub and competition records
+data/search-index.json       Searchable page summaries and destinations
+scripts/build-catalogs.py   Render listing cards and rebuild global search
 src/pages/                  Individual platform pages
 docs/                       Product, design and architecture notes
 ```
@@ -33,9 +37,10 @@ The old `src/index.html` path redirects to the root homepage. Page files remain 
 ## Main sections
 
 - **About and portfolio:** Khethi’s introduction and actual work. KIT is currently the only project listed.
-- **Learn and resources:** Four learning pathways, a small set of free primary-source references, course-selection notes and quick cheatsheets.
-- **Plug Hub:** Separate Micro1 referral routes for businesses and individuals. The page discloses the referral relationship and avoids promising compensation or acceptance.
-- **Read and grow:** A build note and a student opportunity checklist. Funding dates and eligibility are linked to official providers rather than copied into KIT.
+- **Student Hub:** A ten-section dashboard for courses, resources, training, work, funding, competitions, student support and a private browser-based application tracker.
+- **Courses and resources:** Searchable, filterable directories with free access, certificate, difficulty and topic details.
+- **Flex Your Code:** Beginner guidance and dated, free-entry competition listings, with expired events moved to an archive.
+- **Plug Hub:** A broader set of training, work, funding and student-support leads. Micro1’s current programme pages are listed separately for individuals and businesses; the supplied tracking URLs returned 404 and are not used as active application buttons until replaced.
 - **Future services:** Digital products and one-on-one support are clearly marked unavailable until there is a real offer and working flow.
 
 ## Updating the site
@@ -44,17 +49,17 @@ The old `src/index.html` path redirects to the root homepage. Page files remain 
 
 Edit `src/pages/portfolio/index.html`. Add a project card with its real status, your contribution, tools used and working links. Do not add a demo or repository link until it exists. Add or update a matching entry in `data/search-index.json` so the global search can find it.
 
-### Add a learning resource
+### Add a course, resource or opportunity
 
-Add a resource card in `src/pages/resources/index.html`. Use a direct publisher or official documentation link, include a short description, and set `data-category` to one of the existing filters (`web`, `tools`, `security` or `data`). Update `data/search-index.json` if the resource deserves a global result.
+Edit the matching source file in `data/`: `courses.json`, `resources.json` or `opportunities.json`. Include a direct official URL, a stable unique ID and a `checkedAt` date. Record free access, certificates, eligibility, deadlines, location, participant pay, prizes and referrals separately. Use “not specified” or `null` where the provider does not publish a detail; never infer it.
 
-### Add or update an opportunity
+After editing, run:
 
-Edit the Plug Hub cards in `src/pages/plug-hub/plug-hub.html`. Link to the provider’s official destination, describe the intended audience, and state eligibility, location, compensation and deadlines only when you can verify them. Record a last-checked date; remove or mark a listing when it is no longer available. Update the Plug Hub entries in `data/search-index.json` when the audience or destination changes.
+```bash
+python3 scripts/build-catalogs.py
+```
 
-### Add a referral programme
-
-Use the exact referral destination and tracking parameters supplied by the programme owner. Keep the destination paired with its intended audience, use `target="_blank"` with `rel="noopener noreferrer"` for new tabs, and add a clear disclosure next to the link. Never publish private credentials or imply that a referral guarantees acceptance, work or payment. Update the page and search index together.
+This generates the static cards and updates the global search index. Review the generated diff. The full manual review and expiry workflow is in [data/EDITORIAL-WORKFLOW.md](data/EDITORIAL-WORKFLOW.md).
 
 ### Add a page
 
@@ -62,12 +67,13 @@ Copy the shared page shell from an existing `src/pages/.../index.html` file, upd
 
 ## Quality checks
 
-There is no package manager or test framework configured. For a manual check, serve the site as above and review the homepage and each page at desktop and mobile widths. Check navigation, search, theme persistence, the profile card with keyboard and touch, local filters and both referral destinations. Also inspect the browser console and verify internal links and image loading.
+There is no package manager or test framework configured. The catalog generator can be run with Python 3. For browser checks, serve the site as above and review the homepage and each page at desktop and mobile widths. Check navigation, search, theme persistence, profile interaction, filters, the browser-only tracker and referral destinations. Inspect the browser console and verify internal links and image loading.
 
 ## Current limits
 
 - No production hosting domain or Pages configuration is recorded, so canonical URLs and a fully qualified XML sitemap are not configured.
-- There is no backend, CMS, user account, analytics, contact form, payments, booking system or automated opportunity verification.
-- KIT has not recorded a last-checked date for Micro1 programme details; the provider controls terms and availability.
+- There is no backend, CMS, user account, analytics, contact form, payments, booking system, scheduled review or automated opportunity verification. Listings are curated manually; open opportunities should be rechecked before applying.
+- The application tracker uses browser local storage and does not sync to KIT or other devices.
+- The competition list, 2027 intake status and NSFAS deadline are time-sensitive; official sources currently conflict on some dates. See the editorial workflow before publishing or applying.
 - The supplied JPEG is preserved at `assets/images/khethi.jpg`; the site displays a 1200px WebP version at `assets/images/khethi.webp` to reduce image transfer size.
 - The portfolio contains only the KIT website until additional real projects are supplied.

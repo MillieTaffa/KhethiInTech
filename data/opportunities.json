@@ -1,0 +1,1017 @@
+[
+  {
+    "id": "ihub-2027",
+    "kind": "opportunity",
+    "title": "iHub Africa — 2027 digital skills intake",
+    "provider": "iHub Africa",
+    "categories": [
+      "free-coding-academies",
+      "free-digital-skills",
+      "career-development"
+    ],
+    "description": "iHub's overview describes free full-time digital marketing and web development training. Its current application process page is titled Intake 2027, but the overview still contains 2026 cohort copy, so confirm the next cohort, location, age and education requirements directly before applying.",
+    "sourceUrl": "https://intake.ihub.africa/",
+    "applicationUrl": "https://intake.ihub.africa/apply/",
+    "country": "South Africa",
+    "regions": [
+      "Johannesburg (overview lists a Jozi hub; 2027 location needs confirmation)",
+      "Cape Town (overview says web stream launching in 2026; confirm current availability)"
+    ],
+    "format": "In person, full time (overview; confirm for 2027)",
+    "skills": [
+      "web development",
+      "digital marketing",
+      "workplace skills"
+    ],
+    "experienceLevel": "Beginner",
+    "ageRestrictions": "Not specified on the reviewed 2027 application page",
+    "studentRestrictions": "Not specified",
+    "educationRequirements": "Not specified",
+    "startDate": null,
+    "deadline": null,
+    "timezone": "Africa/Johannesburg for local dates; no deadline published",
+    "status": "details-to-confirm",
+    "participationFee": {
+      "type": "free",
+      "amount": null,
+      "currency": "ZAR",
+      "notes": "The overview says the advertised training programme is absolutely free."
+    },
+    "fundingType": "Free training; stipend not specified",
+    "participantCompensation": "Not specified",
+    "prize": null,
+    "stipend": null,
+    "certificate": "An online Google Skillshop Intro to Code module is a required application step; other credential terms not specified",
+    "referral": {
+      "isReferralLink": false,
+      "commissionVerified": false,
+      "commissionType": null,
+      "rate": null,
+      "qualification": null,
+      "payout": null,
+      "termsUrl": null
+    },
+    "checkedAt": "2026-10-10",
+    "verificationStatus": "Official overview and application process reviewed; current cohort details conflict and need confirmation",
+    "evidence": [
+      "https://intake.ihub.africa/",
+      "https://intake.ihub.africa/apply/"
+    ],
+    "notes": "Do not label OPEN NOW. The application page is titled 2027, while the overview's open call still names 2026."
+  },
+  {
+    "id": "wethinkcode-main",
+    "kind": "opportunity",
+    "title": "WeThinkCode_ — software development academy",
+    "provider": "WeThinkCode_",
+    "categories": [
+      "free-coding-academies",
+      "free-digital-skills",
+      "career-development"
+    ],
+    "description": "WeThinkCode_ describes a tuition-free South African software development academy. Its application portal calls the flagship programme two years, while its Enrol page describes 16 months of full-time, on-campus study. The live intake and application deadline still need confirmation.",
+    "sourceUrl": "https://apply.wethinkcode.co.za/",
+    "applicationUrl": "https://apply.wethinkcode.co.za/",
+    "country": "South Africa",
+    "regions": [
+      "Johannesburg",
+      "Cape Town",
+      "Durban",
+      "TVET college locations vary"
+    ],
+    "format": "Full-time, on-campus; published duration differs between the application portal (two years) and Enrol page (16 months)",
+    "skills": [
+      "software development",
+      "backend",
+      "career readiness"
+    ],
+    "experienceLevel": "No prior coding required; selection assessment applies",
+    "ageRestrictions": "17–35 on the Enrol page; confirm current application rules",
+    "studentRestrictions": "Applicants must be able to attend full time; residency conditions apply",
+    "educationRequirements": "The Enrol page says no prior education or coding experience is required; confirm documentation and residency requirements",
+    "startDate": null,
+    "deadline": null,
+    "timezone": "Africa/Johannesburg for local dates; current deadline unavailable",
+    "status": "details-to-confirm",
+    "participationFee": {
+      "type": "free",
+      "amount": null,
+      "currency": "ZAR",
+      "notes": "The official WeThinkCode_ privacy and information manual describes tuition-free student training; confirm current programme conditions."
+    },
+    "fundingType": "Tuition-free main programme; confirm current terms for each track",
+    "participantCompensation": "Not specified",
+    "prize": null,
+    "stipend": null,
+    "certificate": "The Enrol page describes an NQF Level 6 Occupational Certificate in Software Engineering for eligible graduates",
+    "referral": {
+      "isReferralLink": false,
+      "commissionVerified": false,
+      "commissionType": null,
+      "rate": null,
+      "qualification": null,
+      "payout": null,
+      "termsUrl": null
+    },
+    "checkedAt": "2026-10-10",
+    "verificationStatus": "Official application portal and Enrol page reviewed; tuition-free programme confirmed, but duration differs and a current intake deadline is not published",
+    "evidence": [
+      "https://apply.wethinkcode.co.za/",
+      "https://wethinkcode.co.za/enrol/",
+      "https://wethinkcode.co.za/"
+    ],
+    "notes": "The portal currently advertises a two-year main programme; the Enrol page describes 16 months full time on campus. No current 2027 closing date was confirmed. Do not label OPEN NOW."
+  },
+  {
+    "id": "capaciti-ai-accelerator",
+    "kind": "opportunity",
+    "title": "CAPACITI — AI Skills Accelerator",
+    "provider": "CAPACITI / UVU Africa",
+    "categories": [
+      "free-digital-skills",
+      "career-development"
+    ],
+    "description": "A one-week, fully funded AI and digital skills programme described for young unemployed South Africans. The public programme page did not give a current cohort date or application deadline, so confirm availability with CAPACITI.",
+    "sourceUrl": "https://capaciti.org.za/programmes/",
+    "applicationUrl": "https://capaciti.org.za/programmes/",
+    "country": "South Africa",
+    "regions": [
+      "Multiple CAPACITI locations are listed; this specific cohort location is not stated"
+    ],
+    "format": "One week; delivery format not stated for a current cohort",
+    "skills": [
+      "AI",
+      "digital skills"
+    ],
+    "experienceLevel": "Beginner-friendly; confirm cohort prerequisites",
+    "ageRestrictions": "Young people; exact age band not stated on reviewed page",
+    "studentRestrictions": "Advertised for unemployed South Africans",
+    "educationRequirements": "Not specified",
+    "startDate": null,
+    "deadline": null,
+    "timezone": "Africa/Johannesburg for local dates; no cohort date published",
+    "status": "intake-not-listed",
+    "participationFee": {
+      "type": "fully-funded",
+      "amount": 0,
+      "currency": "ZAR",
+      "notes": "The programme page describes the one-week accelerator as fully funded."
+    },
+    "fundingType": "Fully funded training; no stipend stated",
+    "participantCompensation": "Not specified",
+    "prize": null,
+    "stipend": null,
+    "certificate": "Not specified",
+    "referral": {
+      "isReferralLink": false,
+      "commissionVerified": false,
+      "commissionType": null,
+      "rate": null,
+      "qualification": null,
+      "payout": null,
+      "termsUrl": null
+    },
+    "checkedAt": "2026-10-10",
+    "verificationStatus": "Official programme description reviewed; no current cohort/application window published",
+    "evidence": [
+      "https://capaciti.org.za/programmes/"
+    ],
+    "notes": "Do not describe this as a stipend or salary. Fully funded describes the programme cost."
+  },
+  {
+    "id": "umuzi-experience-lab",
+    "kind": "opportunity",
+    "title": "Umuzi Experience Lab Explorers — paid project work",
+    "provider": "Umuzi",
+    "categories": [
+      "remote-work",
+      "freelance-gigs",
+      "paid-ai-data-projects",
+      "career-development"
+    ],
+    "description": "A paid project-work programme for people who already have a digital or technical skill. Umuzi says participants receive direct payments for work and tasks; the amount depends on work completed and is not published as a guaranteed salary.",
+    "sourceUrl": "https://www.umuzi.org/experience-lab-explorers",
+    "applicationUrl": "https://www.umuzi.org/experience-lab-explorers",
+    "country": "South Africa",
+    "regions": [
+      "Confirm project and location eligibility with Umuzi"
+    ],
+    "format": "Flexible project work; 20 hours per week commitment stated",
+    "skills": [
+      "software development",
+      "web applications",
+      "data",
+      "project management",
+      "digital marketing"
+    ],
+    "experienceLevel": "Already skilled; not a beginner course",
+    "ageRestrictions": "18–35",
+    "studentRestrictions": "Unemployed or underemployed applicants are described",
+    "educationRequirements": "Formal training, TVET, university or self-taught experience in a relevant area",
+    "startDate": null,
+    "deadline": null,
+    "timezone": "Africa/Johannesburg for local dates; no deadline published",
+    "status": "availability-to-confirm",
+    "participationFee": {
+      "type": "none-stated",
+      "amount": null,
+      "currency": "ZAR",
+      "notes": "The reviewed programme page describes paid work and does not list a participant fee."
+    },
+    "fundingType": "Paid tasks/projects; not a fixed stipend",
+    "participantCompensation": "Direct payments for work and tasks completed; amount not specified",
+    "prize": null,
+    "stipend": null,
+    "certificate": "Not specified",
+    "referral": {
+      "isReferralLink": false,
+      "commissionVerified": false,
+      "commissionType": null,
+      "rate": null,
+      "qualification": null,
+      "payout": null,
+      "termsUrl": null
+    },
+    "checkedAt": "2026-10-10",
+    "verificationStatus": "Official programme page reviewed; live cohort availability not stated",
+    "evidence": [
+      "https://www.umuzi.org/experience-lab-explorers"
+    ],
+    "notes": "Applications are linked from the programme page, but current capacity and payment amounts need confirmation."
+  },
+  {
+    "id": "umuzi-sap-educate-employ",
+    "kind": "opportunity",
+    "title": "Umuzi — SAP Educate to Employ",
+    "provider": "Umuzi",
+    "categories": [
+      "free-digital-skills",
+      "free-coding-academies",
+      "career-development"
+    ],
+    "description": "A free learning pathway covering career options in SAP-related HR, technology, finance and customer support. The programme page did not show a current cohort deadline in this review.",
+    "sourceUrl": "https://umuzi.org/sap-educate-to-employ-programme",
+    "applicationUrl": "https://umuzi.org/sap-educate-to-employ-programme",
+    "country": "South Africa",
+    "regions": [
+      "Not specified"
+    ],
+    "format": "Online pathway; confirm any live requirements",
+    "skills": [
+      "SAP",
+      "technology",
+      "finance",
+      "customer support"
+    ],
+    "experienceLevel": "Entry-level; confirm prerequisites",
+    "ageRestrictions": "Not specified",
+    "studentRestrictions": "Not specified",
+    "educationRequirements": "Application and skills test are described",
+    "startDate": null,
+    "deadline": null,
+    "timezone": "Africa/Johannesburg for local dates; no deadline published",
+    "status": "availability-to-confirm",
+    "participationFee": {
+      "type": "free",
+      "amount": 0,
+      "currency": "ZAR",
+      "notes": "The provider states the programme is free of charge."
+    },
+    "fundingType": "Free training; stipend not specified",
+    "participantCompensation": "Not specified",
+    "prize": null,
+    "stipend": null,
+    "certificate": "Certification assessments are described at the end of a learning block; current credential details should be checked with Umuzi",
+    "referral": {
+      "isReferralLink": false,
+      "commissionVerified": false,
+      "commissionType": null,
+      "rate": null,
+      "qualification": null,
+      "payout": null,
+      "termsUrl": null
+    },
+    "checkedAt": "2026-10-10",
+    "verificationStatus": "Official programme page reviewed; current application window not confirmed",
+    "evidence": [
+      "https://umuzi.org/sap-educate-to-employ-programme"
+    ],
+    "notes": "Free programme access does not mean a current cohort is open."
+  },
+  {
+    "id": "zaio-data-science-bootcamp-oct-2026",
+    "kind": "opportunity",
+    "title": "Zaio Data Science Bootcamp — October 2026 intake",
+    "provider": "Zaio",
+    "categories": [
+      "paid-training-programmes"
+    ],
+    "description": "An upcoming beginner-friendly online bootcamp with Python, analytics, machine learning and data visualisation. The official Zaio programme page lists applications closing 15 October 2026 and a bootcamp intake starting 27 October 2026.",
+    "sourceUrl": "https://www.zaio.io/bootcamps",
+    "applicationUrl": "https://www.zaio.io/bootcamps",
+    "country": "South Africa",
+    "regions": [
+      "Online; provider says learners can join from South Africa"
+    ],
+    "format": "Online",
+    "skills": [
+      "Python",
+      "data analytics",
+      "machine learning",
+      "data visualisation"
+    ],
+    "experienceLevel": "Beginner",
+    "ageRestrictions": "Not specified",
+    "studentRestrictions": "No degree required for bootcamps; confirm current entry terms",
+    "educationRequirements": "No degree required to start, according to the bootcamp page",
+    "startDate": "2026-10-27",
+    "deadline": "2026-10-15",
+    "timezone": "Africa/Johannesburg (confirm cutoff time with provider; only date is published)",
+    "status": "open",
+    "participationFee": {
+      "type": "paid",
+      "amount": 32950,
+      "currency": "ZAR",
+      "notes": "Zaio lists Data Science bootcamp tuition at R32,950 upfront or financing from R3,213/month; ask the provider to confirm final terms before enrolling."
+    },
+    "fundingType": "Paid training; financing options are available through the provider and partners",
+    "participantCompensation": "Not applicable; this is paid education, not paid work",
+    "prize": null,
+    "stipend": null,
+    "certificate": "Provider lists a completion credential; confirm the exact credential and accreditation for this bootcamp",
+    "referral": {
+      "isReferralLink": false,
+      "commissionVerified": false,
+      "commissionType": null,
+      "rate": null,
+      "qualification": null,
+      "payout": null,
+      "termsUrl": null
+    },
+    "checkedAt": "2026-10-10",
+    "verificationStatus": "Official Zaio programme and tuition pages reviewed; application close date and price shown by provider",
+    "evidence": [
+      "https://www.zaio.io/",
+      "https://www.zaio.io/tuition-and-financing",
+      "https://www.zaio.io/bootcamps"
+    ],
+    "notes": "This is a paid course. Tuition is not a stipend, salary or KIT commission."
+  },
+  {
+    "id": "girlcode-programmes",
+    "kind": "opportunity",
+    "title": "GirlCode — coding, skills acceleration and learnership programmes",
+    "provider": "GirlCode",
+    "categories": [
+      "free-digital-skills",
+      "learnerships",
+      "internships",
+      "career-development"
+    ],
+    "description": "GirlCode lists coding bootcamps, skills acceleration, learnerships and clubs for girls and women. Funding and eligibility differ by programme; no current cohort, fee status or stipend was confirmed from the overview page.",
+    "sourceUrl": "https://www.girlcode.co.za/",
+    "applicationUrl": "https://www.girlcode.co.za/",
+    "country": "South Africa",
+    "regions": [
+      "Check the individual programme"
+    ],
+    "format": "Varies by programme",
+    "skills": [
+      "software development",
+      "cloud",
+      "digital skills"
+    ],
+    "experienceLevel": "Varies",
+    "ageRestrictions": "Varies",
+    "studentRestrictions": "Varies; many programmes focus on girls and women",
+    "educationRequirements": "Varies",
+    "startDate": null,
+    "deadline": null,
+    "timezone": "Africa/Johannesburg for local dates; no current deadline confirmed",
+    "status": "programme-directory",
+    "participationFee": {
+      "type": "varies-by-programme",
+      "amount": null,
+      "currency": "ZAR",
+      "notes": "The organisation lists multiple programmes; free or funded terms must be checked on each specific current cohort."
+    },
+    "fundingType": "Varies by programme; no stipend verified for a current cohort",
+    "participantCompensation": "Not specified",
+    "prize": null,
+    "stipend": null,
+    "certificate": "Varies by programme",
+    "referral": {
+      "isReferralLink": false,
+      "commissionVerified": false,
+      "commissionType": null,
+      "rate": null,
+      "qualification": null,
+      "payout": null,
+      "termsUrl": null
+    },
+    "checkedAt": "2026-10-10",
+    "verificationStatus": "Official programme overview reviewed; current intake details not verified",
+    "evidence": [
+      "https://www.girlcode.co.za/",
+      "https://www.girlcode.co.za/programs/online-bootcamp"
+    ],
+    "notes": "Open the specific programme page and confirm current application dates, costs and eligibility."
+  },
+  {
+    "id": "codespace-scholarships",
+    "kind": "opportunity",
+    "title": "CodeSpace Academy — courses and limited scholarships",
+    "provider": "CodeSpace Academy",
+    "categories": [
+      "paid-training-programmes",
+      "bursaries-scholarships",
+      "career-development"
+    ],
+    "description": "CodeSpace offers paid coding courses and says it has a limited number of scholarships based on merit and financial need. No current scholarship deadline or cohort terms were confirmed on the overview page.",
+    "sourceUrl": "https://www.codespace.co.za/",
+    "applicationUrl": "https://www.codespace.co.za/",
+    "country": "South Africa",
+    "regions": [
+      "Check the provider's current programme page"
+    ],
+    "format": "Part-time and full-time options vary",
+    "skills": [
+      "web development",
+      "software development"
+    ],
+    "experienceLevel": "Beginner options available",
+    "ageRestrictions": "Not specified",
+    "studentRestrictions": "Scholarship assessment is based on merit and financial need, according to the provider",
+    "educationRequirements": "Varies by course",
+    "startDate": null,
+    "deadline": null,
+    "timezone": "Africa/Johannesburg for local dates; no scholarship deadline confirmed",
+    "status": "availability-to-confirm",
+    "participationFee": {
+      "type": "paid-or-scholarship",
+      "amount": null,
+      "currency": "ZAR",
+      "notes": "Courses are fee-paying; the provider offers a limited number of scholarships. Amount and current availability must be confirmed."
+    },
+    "fundingType": "Paid training; limited scholarships may be available",
+    "participantCompensation": "Not applicable",
+    "prize": null,
+    "stipend": null,
+    "certificate": "Varies by course",
+    "referral": {
+      "isReferralLink": false,
+      "commissionVerified": false,
+      "commissionType": null,
+      "rate": null,
+      "qualification": null,
+      "payout": null,
+      "termsUrl": null
+    },
+    "checkedAt": "2026-10-10",
+    "verificationStatus": "Official programme page reviewed; current costs and scholarship window not published in the reviewed source",
+    "evidence": [
+      "https://www.codespace.co.za/"
+    ],
+    "notes": "Do not treat a scholarship as available until the provider confirms an active application window."
+  },
+  {
+    "id": "zaio-current-programmes",
+    "kind": "opportunity",
+    "title": "Zaio — paid tech courses and 2026–27 intakes",
+    "provider": "Zaio",
+    "categories": [
+      "paid-training-programmes",
+      "career-development"
+    ],
+    "description": "Zaio's current programme page lists paid bootcamps and occupational certificates with specific 2026–27 closing dates. Compare the programme price, exam fees and finance terms before applying.",
+    "sourceUrl": "https://www.zaio.io/",
+    "applicationUrl": "https://www.zaio.io/",
+    "country": "South Africa",
+    "regions": [
+      "Online; Cape Town and Durban hubs also listed"
+    ],
+    "format": "Online and live; varies by programme",
+    "skills": [
+      "software development",
+      "AI",
+      "data science",
+      "cybersecurity",
+      "cloud",
+      "DevOps"
+    ],
+    "experienceLevel": "Beginner options are listed",
+    "ageRestrictions": "Not specified",
+    "studentRestrictions": "Varies by programme",
+    "educationRequirements": "Varies; occupational certificates list NQF Level 4 or equivalent",
+    "startDate": null,
+    "deadline": null,
+    "timezone": "Africa/Johannesburg; confirm cutoff times with Zaio",
+    "status": "programme-directory",
+    "participationFee": {
+      "type": "paid",
+      "amount": null,
+      "currency": "ZAR",
+      "notes": "The provider lists paid tuition; bootcamps start at R19,950 and occupational certificate tuition varies. Some programmes also have separate exam fees."
+    },
+    "fundingType": "Paid education with installment and financing options",
+    "participantCompensation": "Not applicable",
+    "prize": null,
+    "stipend": null,
+    "certificate": "Accreditation and certificate type vary by course; check each programme page",
+    "referral": {
+      "isReferralLink": false,
+      "commissionVerified": false,
+      "commissionType": null,
+      "rate": null,
+      "qualification": null,
+      "payout": null,
+      "termsUrl": null
+    },
+    "checkedAt": "2026-10-10",
+    "verificationStatus": "Official Zaio programme and tuition pages reviewed",
+    "evidence": [
+      "https://www.zaio.io/",
+      "https://www.zaio.io/tuition-and-financing"
+    ],
+    "notes": "This is paid training, not an earn-money opportunity. See the separate current Data Science intake card for its published deadline."
+  },
+  {
+    "id": "sa-youth-portal",
+    "kind": "opportunity",
+    "title": "SAYouth.mobi — search youth opportunities",
+    "provider": "SAYouth",
+    "categories": [
+      "jobs-entry-level",
+      "internships",
+      "apprenticeships",
+      "learnerships",
+      "graduate-programmes",
+      "bursaries-scholarships"
+    ],
+    "description": "An official South African youth opportunity portal. Search the live portal for current openings and confirm each listing's employer, requirements, location, closing date and payment terms.",
+    "sourceUrl": "https://sayouth.mobi/",
+    "applicationUrl": "https://sayouth.mobi/",
+    "country": "South Africa",
+    "regions": [
+      "South Africa; listings specify regions"
+    ],
+    "format": "Varies by listing",
+    "skills": [],
+    "experienceLevel": "Varies by listing",
+    "ageRestrictions": "Varies by listing",
+    "studentRestrictions": "Varies by listing",
+    "educationRequirements": "Varies by listing",
+    "startDate": null,
+    "deadline": null,
+    "timezone": "Africa/Johannesburg unless the listing specifies another zone",
+    "status": "directory",
+    "participationFee": {
+      "type": "none-stated",
+      "amount": null,
+      "currency": "ZAR",
+      "notes": "This is a discovery portal, not one specific paid application. Confirm terms for each opportunity."
+    },
+    "fundingType": "Varies by listing",
+    "participantCompensation": "Varies by listing",
+    "prize": null,
+    "stipend": null,
+    "certificate": "Varies by listing",
+    "referral": {
+      "isReferralLink": false,
+      "commissionVerified": false,
+      "commissionType": null,
+      "rate": null,
+      "qualification": null,
+      "payout": null,
+      "termsUrl": null
+    },
+    "checkedAt": "2026-10-10",
+    "verificationStatus": "Official portal opened; listings change and require per-opportunity review",
+    "evidence": [
+      "https://sayouth.mobi/"
+    ],
+    "notes": "KIT does not mirror live SAYouth postings automatically."
+  },
+  {
+    "id": "nsfas-funding-guide",
+    "kind": "opportunity",
+    "title": "NSFAS 2027 student funding applications",
+    "provider": "National Student Financial Aid Scheme",
+    "categories": [
+      "bursaries-scholarships",
+      "student-support"
+    ],
+    "description": "The official NSFAS site currently says 2027 funding applications are open and free to submit for eligible students at public universities and TVET colleges. NSFAS and a government announcement publish different closing dates, so check the live portal before relying on a deadline.",
+    "sourceUrl": "https://nsfas.org.za/content/how-to-apply.html",
+    "applicationUrl": "https://my.nsfas.org.za/",
+    "country": "South Africa",
+    "regions": [
+      "South Africa"
+    ],
+    "format": "Online application",
+    "skills": [
+      "student funding",
+      "public university",
+      "TVET college"
+    ],
+    "experienceLevel": "Eligible new or continuing students",
+    "ageRestrictions": "Check current NSFAS funding rules",
+    "studentRestrictions": "South African citizen or permanent resident planning to study at an eligible public university or TVET college; eligibility conditions apply",
+    "educationRequirements": "Eligible public university or TVET college programme; household-income and other funding criteria apply",
+    "startDate": "2026-09-18",
+    "deadline": "2026-10-31T23:59:00+02:00",
+    "timezone": "Africa/Johannesburg",
+    "status": "open",
+    "participationFee": {
+      "type": "free-to-apply",
+      "amount": 0,
+      "currency": "ZAR",
+      "notes": "NSFAS states applications are free; never pay a third party to apply."
+    },
+    "fundingType": "Bursary/financial aid; coverage and eligibility depend on current NSFAS policy",
+    "participantCompensation": "Student funding, not a salary",
+    "prize": null,
+    "stipend": null,
+    "certificate": null,
+    "referral": {
+      "isReferralLink": false,
+      "commissionVerified": false,
+      "commissionType": null,
+      "rate": null,
+      "qualification": null,
+      "payout": null,
+      "termsUrl": null
+    },
+    "checkedAt": "2026-10-10",
+    "verificationStatus": "NSFAS live guidance says the 2027 window is open and closes 31 October 2026; a South African Government announcement says 18 November 2026, so confirm the closing date on myNSFAS",
+    "evidence": [
+      "https://nsfas.org.za/content/how-to-apply.html",
+      "https://nsfas.org.za/content/faqs.html",
+      "https://www.gov.za/news/speeches/minister-buti-manamela-launch-nsfas-2027-application-cycle-18-sep-2026"
+    ],
+    "notes": "As checked 10 October 2026, the NSFAS application page shows the window open through 31 October 2026 at 23:59 SAST. A Government announcement gives 18 November 2026 as the close. Use the myNSFAS portal for the final cutoff and eligibility."
+  },
+  {
+    "id": "github-student-pack",
+    "kind": "opportunity",
+    "title": "GitHub Student Developer Pack",
+    "provider": "GitHub Education",
+    "categories": [
+      "career-development",
+      "open-source-programmes",
+      "student-essentials"
+    ],
+    "description": "A collection of developer tools and learning benefits for verified students. Each partner offer has its own eligibility, duration and possible usage limits.",
+    "sourceUrl": "https://education.github.com/pack",
+    "applicationUrl": "https://education.github.com/pack",
+    "country": "Global; provider eligibility applies",
+    "regions": [
+      "Global subject to student verification and partner rules"
+    ],
+    "format": "Online",
+    "skills": [
+      "developer tools",
+      "GitHub",
+      "open source"
+    ],
+    "experienceLevel": "Student",
+    "ageRestrictions": "Provider terms apply",
+    "studentRestrictions": "Student status verification required",
+    "educationRequirements": "Eligible student account and institution verification",
+    "startDate": null,
+    "deadline": null,
+    "timezone": null,
+    "status": "ongoing-programme",
+    "participationFee": {
+      "type": "free-to-apply",
+      "amount": 0,
+      "currency": "USD",
+      "notes": "The pack is free for eligible verified students; individual partner products can have limits or paid tiers."
+    },
+    "fundingType": "Software and learning benefits; not cash funding",
+    "participantCompensation": "None",
+    "prize": null,
+    "stipend": null,
+    "certificate": "Varies by partner benefit",
+    "referral": {
+      "isReferralLink": false,
+      "commissionVerified": false,
+      "commissionType": null,
+      "rate": null,
+      "qualification": null,
+      "payout": null,
+      "termsUrl": null
+    },
+    "checkedAt": "2026-10-10",
+    "verificationStatus": "Official GitHub Education page reviewed; partner benefits vary",
+    "evidence": [
+      "https://education.github.com/pack"
+    ],
+    "notes": "Not a job, stipend or cash award."
+  },
+  {
+    "id": "micro1-individuals",
+    "kind": "opportunity",
+    "title": "Micro1 individual opportunities",
+    "provider": "Micro1",
+    "categories": [
+      "jobs-entry-level",
+      "remote-work",
+      "freelance-gigs",
+      "referral-affiliate-programmes"
+    ],
+    "description": "Micro1 describes remote opportunities for domain experts and a separate candidate referral programme. The current official expert page is linked here; the specific KIT tracking URL returned HTTP 404 during the 10 October 2026 link check, so attribution is not confirmed.",
+    "sourceUrl": "https://www.micro1.ai/experts",
+    "applicationUrl": "https://www.micro1.ai/experts",
+    "country": "Varies by listed opportunity",
+    "regions": [
+      "Check each role"
+    ],
+    "format": "Varies; remote roles may be listed",
+    "skills": [
+      "Varies by role"
+    ],
+    "experienceLevel": "Varies by role",
+    "ageRestrictions": "Provider terms apply",
+    "studentRestrictions": "Varies by role",
+    "educationRequirements": "Varies by role",
+    "startDate": null,
+    "deadline": null,
+    "timezone": null,
+    "status": "referral-link-needs-confirmation",
+    "participationFee": {
+      "type": "none-stated",
+      "amount": null,
+      "currency": null,
+      "notes": "Review Micro1's official terms for each role."
+    },
+    "fundingType": "Remote work opportunities; role terms vary. Any referral reward to KIT is separate.",
+    "participantCompensation": "Role pay and availability vary; no placement is guaranteed",
+    "prize": null,
+    "stipend": null,
+    "certificate": null,
+    "referral": {
+      "isReferralLink": true,
+      "commissionVerified": false,
+      "commissionType": "Micro1 currently advertises up to USD 3,000 for a successful candidate referral; this amount is not verified for the supplied KIT tracking URL.",
+      "rate": null,
+      "qualification": "Micro1 describes a successful referral; the current public page does not confirm whether the supplied KIT code qualifies or state the exact conditions.",
+      "payout": "Not confirmed for the supplied KIT link; review current Micro1 referral terms.",
+      "termsUrl": "https://www.micro1.ai/experts",
+      "trackingStatus": "The supplied URL returned HTTP 404 during the 2026-10-10 check. The original tracking URL is not included in the public catalog; request a fresh link from Micro1 before using referral tracking.",
+      "disclosure": "The supplied KIT tracking route returned HTTP 404 during a 10 October 2026 check, so KIT cannot confirm referral attribution. Micro1 publicly advertises a separate candidate referral programme; conditions, eligibility and payout for this KIT link are unverified."
+    },
+    "checkedAt": "2026-10-10",
+    "verificationStatus": "Current official Micro1 expert page reviewed; supplied KIT tracking URL returned HTTP 404 and its attribution is unverified",
+    "evidence": [
+      "https://www.micro1.ai/experts"
+    ],
+    "notes": "The official page says certification or application does not guarantee a project. Do not share the supplied tracking link until Micro1 confirms or replaces it."
+  },
+  {
+    "id": "micro1-business",
+    "kind": "opportunity",
+    "title": "Micro1 business registration",
+    "provider": "Micro1",
+    "categories": [
+      "business-partnerships",
+      "referral-affiliate-programmes"
+    ],
+    "description": "Micro1 has a company data-partnership referral programme for qualifying businesses. The current official programme page is linked here; the specific KIT tracking URL returned HTTP 404 during the 10 October 2026 link check, so attribution is not confirmed.",
+    "sourceUrl": "https://www.micro1.ai/company-referral",
+    "applicationUrl": "https://www.micro1.ai/company-referral",
+    "country": "Global referral programme; company eligibility and demand vary",
+    "regions": [
+      "Global; company requirements and current demand apply"
+    ],
+    "format": "Online referral and company review",
+    "skills": [],
+    "experienceLevel": "Business audience",
+    "ageRestrictions": "Micro1 says referrers must be over 18",
+    "studentRestrictions": "Business audience; not a student job",
+    "educationRequirements": "Micro1 describes companies with 30+ employees and primarily English operational data as a fit; US companies are prioritised",
+    "startDate": null,
+    "deadline": null,
+    "timezone": null,
+    "status": "referral-link-needs-confirmation",
+    "participationFee": {
+      "type": "terms-not-stated",
+      "amount": null,
+      "currency": null,
+      "notes": "Review Micro1's business terms directly."
+    },
+    "fundingType": "Business data partnership; a referral reward to KIT is separate from company compensation",
+    "participantCompensation": "Not applicable to a company; partnership terms vary",
+    "prize": null,
+    "stipend": null,
+    "certificate": null,
+    "referral": {
+      "isReferralLink": true,
+      "commissionVerified": false,
+      "commissionType": "Micro1 currently advertises up to USD 50,000 per company referral depending on partnership size and value; this amount is not verified for the supplied KIT tracking URL.",
+      "rate": null,
+      "qualification": "Micro1 says the company must apply through a unique referral link and be approved; Workflow payouts require onboarding and a revenue threshold, while Corpus payouts require accepted data. The supplied KIT link is unverified.",
+      "payout": "Micro1 describes payouts to its account wallet after program-specific qualification; timing for the supplied KIT link is unverified.",
+      "termsUrl": "https://www.micro1.ai/company-referral",
+      "trackingStatus": "The supplied URL returned HTTP 404 during the 2026-10-10 check. The original tracking URL is not included in the public catalog; request a fresh link from Micro1 before using referral tracking.",
+      "disclosure": "The supplied KIT tracking route returned HTTP 404 during a 10 October 2026 check, so KIT cannot confirm referral attribution. Micro1 publicly advertises a separate company referral programme with rewards up to USD 50,000 subject to company eligibility and payout conditions; those terms are not confirmed for this KIT link."
+    },
+    "checkedAt": "2026-10-10",
+    "verificationStatus": "Current official Micro1 company referral page reviewed; supplied KIT tracking URL returned HTTP 404 and its attribution is unverified",
+    "evidence": [
+      "https://www.micro1.ai/company-referral"
+    ],
+    "notes": "Micro1 separates company partnership compensation from a referrer reward. The supplied tracking URL needs replacement or confirmation before sharing."
+  },
+  {
+    "id": "evohacks-2026",
+    "kind": "hackathon",
+    "title": "EvoHacks2026 — AI in Automation",
+    "provider": "EvoHacks / Devpost",
+    "categories": [
+      "hackathons-and-paid-challenges"
+    ],
+    "description": "A beginner-friendly online AI automation hackathon for high-school students. Teams of up to four may build between 10 and 11 October; project submission closes 11 October at 12:00 PDT.",
+    "sourceUrl": "https://evohackathon2026.devpost.com/",
+    "applicationUrl": "https://evohackathon2026.devpost.com/",
+    "country": "Worldwide subject to Devpost's standard exclusions",
+    "regions": [
+      "Online; check full rules for country restrictions"
+    ],
+    "format": "Online",
+    "skills": [
+      "AI",
+      "automation",
+      "web",
+      "software"
+    ],
+    "experienceLevel": "Beginner friendly",
+    "ageRestrictions": "13+",
+    "studentRestrictions": "High-school students only",
+    "educationRequirements": "High-school enrollment",
+    "startDate": "2026-10-10",
+    "deadline": "2026-10-11T12:00:00-07:00",
+    "timezone": "America/Los_Angeles (PDT); deadline is 2026-10-11 21:00 in Africa/Johannesburg",
+    "status": "open",
+    "participationFee": {
+      "type": "free",
+      "amount": 0,
+      "currency": "USD",
+      "notes": "Devpost states that participant entry on its public hackathons is free; no event fee or required paid tool is listed on the event page. Confirm any external service costs before building."
+    },
+    "fundingType": "Competition; prizes are not guaranteed income",
+    "participantCompensation": "None guaranteed",
+    "prize": {
+      "type": "non-cash",
+      "details": "Five non-cash prizes. Listed items include gift cards, AI credits, domain registrations and certificates; read the event page for prize-by-place details."
+    },
+    "stipend": null,
+    "certificate": "Participation and winner certificates are listed by the organizer; confirm conditions on event page",
+    "referral": {
+      "isReferralLink": false,
+      "commissionVerified": false,
+      "commissionType": null,
+      "rate": null,
+      "qualification": null,
+      "payout": null,
+      "termsUrl": null
+    },
+    "checkedAt": "2026-10-10",
+    "verificationStatus": "Official event, rules and Devpost participant FAQ reviewed; live deadline and eligibility published",
+    "evidence": [
+      "https://evohackathon2026.devpost.com/",
+      "https://evohackathon2026.devpost.com/rules",
+      "https://info.devpost.com/faqs-participants"
+    ],
+    "notes": "Closing soon. Rules say high-school students only; minors should review event and guardian requirements.",
+    "eventDates": "10–11 October 2026",
+    "deadlineDisplay": "11 October 2026, 12:00 PDT",
+    "participationMode": "Teams of up to 4",
+    "requiredTools": "No mandatory paid tool is named on the reviewed event page or rules; check costs and usage limits for any external service.",
+    "freeEntryEvidence": "Devpost participant FAQ says public hackathon entry is free; no event registration fee is listed."
+  },
+  {
+    "id": "next-byte-hacks-v5",
+    "kind": "hackathon",
+    "title": "Next Byte Hacks V5",
+    "provider": "Next Byte Hacks / Devpost",
+    "categories": [
+      "hackathons-and-paid-challenges"
+    ],
+    "description": "An online open-ended, beginner-friendly student hackathon for software or hardware projects. The official page lists a deadline of 31 October 2026 at 17:00 EDT.",
+    "sourceUrl": "https://next-byte-hacks-v5.devpost.com/",
+    "applicationUrl": "https://next-byte-hacks-v5.devpost.com/",
+    "country": "Worldwide subject to Devpost's standard exclusions",
+    "regions": [
+      "Online; check full rules for country restrictions"
+    ],
+    "format": "Online",
+    "skills": [
+      "software",
+      "hardware",
+      "AI",
+      "web",
+      "social good"
+    ],
+    "experienceLevel": "Beginner friendly",
+    "ageRestrictions": "Above the legal age of majority in country of residence",
+    "studentRestrictions": "Students only",
+    "educationRequirements": "Student status; full rules apply",
+    "startDate": null,
+    "deadline": "2026-10-31T17:00:00-04:00",
+    "timezone": "America/New_York (EDT); deadline is 2026-10-31 23:00 in Africa/Johannesburg",
+    "status": "open",
+    "participationFee": {
+      "type": "free",
+      "amount": 0,
+      "currency": "USD",
+      "notes": "Devpost states that participant entry on its public hackathons is free; no event fee or required paid tool is listed on the event page. Confirm any external service costs before building."
+    },
+    "fundingType": "Competition; prize is not guaranteed income",
+    "participantCompensation": "None guaranteed",
+    "prize": {
+      "type": "cash-and-non-cash",
+      "details": "$100 total cash prizes ($50, $25 and $25) plus certificates and online recognition, as stated by the organizer."
+    },
+    "stipend": null,
+    "certificate": "Certificates are listed as prizes; read organizer terms",
+    "referral": {
+      "isReferralLink": false,
+      "commissionVerified": false,
+      "commissionType": null,
+      "rate": null,
+      "qualification": null,
+      "payout": null,
+      "termsUrl": null
+    },
+    "checkedAt": "2026-10-10",
+    "verificationStatus": "Official event and Devpost participant FAQ reviewed; deadline, student eligibility and prizes published",
+    "evidence": [
+      "https://next-byte-hacks-v5.devpost.com/",
+      "https://next-byte-hacks-v5.devpost.com/rules",
+      "https://info.devpost.com/faqs-participants"
+    ],
+    "notes": "Event dates beyond the deadline are not stated on the reviewed page. Check rules for full eligibility.",
+    "eventDates": "The reviewed event page does not state a separate build window.",
+    "deadlineDisplay": "31 October 2026, 17:00 EDT",
+    "participationMode": "Team size and individual-entry rules: check the official rules.",
+    "requiredTools": "No mandatory paid tool is named on the reviewed event page or rules; check costs and usage limits for any external service.",
+    "freeEntryEvidence": "Devpost participant FAQ says public hackathon entry is free; no event registration fee is listed."
+  },
+  {
+    "id": "nyda-opportunities",
+    "kind": "opportunity",
+    "title": "National Youth Development Agency — Opportunities Corner",
+    "provider": "National Youth Development Agency",
+    "categories": [
+      "jobs-entry-level",
+      "internships",
+      "learnerships",
+      "bursaries-scholarships",
+      "career-development"
+    ],
+    "description": "The NYDA Opportunities Corner links to youth services and external vacancies, internships, bursaries and programmes. Confirm each listing with the named employer or provider; it is a discovery directory, not a single application.",
+    "sourceUrl": "https://www.nyda.gov.za/Opportunities.html",
+    "applicationUrl": "https://www.nyda.gov.za/Opportunities.html",
+    "country": "South Africa",
+    "regions": [
+      "South Africa; individual listings specify locations"
+    ],
+    "format": "Varies by listing",
+    "skills": [],
+    "experienceLevel": "Varies by listing",
+    "ageRestrictions": "Varies by programme",
+    "studentRestrictions": "Varies by listing",
+    "educationRequirements": "Varies by listing",
+    "startDate": null,
+    "deadline": null,
+    "timezone": "Africa/Johannesburg unless a listing specifies another zone",
+    "status": "directory",
+    "participationFee": {
+      "type": "not-applicable-to-directory",
+      "amount": null,
+      "currency": "ZAR",
+      "notes": "The portal links to different programmes; confirm terms and any application fee with each official provider."
+    },
+    "fundingType": "Varies by listing",
+    "participantCompensation": "Varies by listing",
+    "prize": null,
+    "stipend": null,
+    "certificate": "Varies by listing",
+    "referral": {
+      "isReferralLink": false,
+      "commissionVerified": false,
+      "commissionType": null,
+      "rate": null,
+      "qualification": null,
+      "payout": null,
+      "termsUrl": null
+    },
+    "checkedAt": "2026-10-10",
+    "verificationStatus": "Official NYDA Opportunities Corner opened; third-party items need individual verification",
+    "evidence": [
+      "https://www.nyda.gov.za/Opportunities.html"
+    ],
+    "notes": "Some links on the portal point to third-party listings. Confirm the employer, live application destination and deadline before applying."
+  }
+]

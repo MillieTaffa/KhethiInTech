@@ -171,5 +171,1029 @@
       "LinkedIn",
       "GitHub"
     ]
+  },
+  {
+    "title": "freeCodeCamp — interactive developer curriculum",
+    "category": "Free courses",
+    "description": "Self-paced coding lessons and projects across web development, JavaScript, Python, databases and more. Provider: freeCodeCamp",
+    "url": "src/pages/courses/index.html#freecodecamp-core",
+    "tags": [
+      "web",
+      "javascript",
+      "python",
+      "sql",
+      "backend",
+      "accessibility",
+      "testing"
+    ],
+    "catalogType": "course"
+  },
+  {
+    "title": "The Odin Project — Foundations",
+    "category": "Free courses",
+    "description": "A project-based introduction to the command line, Git, HTML, CSS, JavaScript and web development. Provider: The Odin Project",
+    "url": "src/pages/courses/index.html#odin-foundations",
+    "tags": [
+      "web",
+      "javascript",
+      "git",
+      "frontend"
+    ],
+    "catalogType": "course"
+  },
+  {
+    "title": "Harvard CS50x 2026 — Introduction to Computer Science",
+    "category": "Free courses",
+    "description": "A broad introduction to computer science with problem sets and a final project using C, Python, SQL, HTML, CSS and JavaScript. Provider: Harvard CS50",
+    "url": "src/pages/courses/index.html#cs50x-2026",
+    "tags": [
+      "computer-science",
+      "programming",
+      "algorithms",
+      "python",
+      "sql",
+      "web"
+    ],
+    "catalogType": "course"
+  },
+  {
+    "title": "Harvard CS50 — Introduction to Cybersecurity",
+    "category": "Free courses",
+    "description": "Learn practical ways to secure accounts, data, systems and software, with five weeks of course material and assignments. Provider: Harvard CS50",
+    "url": "src/pages/courses/index.html#cs50-cybersecurity",
+    "tags": [
+      "cybersecurity",
+      "privacy",
+      "networks",
+      "software-security"
+    ],
+    "catalogType": "course"
+  },
+  {
+    "title": "W3Schools — programming tutorials and exercises",
+    "category": "Free courses",
+    "description": "Readable, interactive tutorials for HTML, CSS, JavaScript, Python, SQL, Java, Git, PostgreSQL and many other topics. Provider: W3Schools",
+    "url": "src/pages/courses/index.html#w3schools-tutorials",
+    "tags": [
+      "web",
+      "javascript",
+      "python",
+      "sql",
+      "java",
+      "git",
+      "postgresql"
+    ],
+    "catalogType": "course"
+  },
+  {
+    "title": "MIT OCW — Introduction to Computer Science and Programming in Python",
+    "category": "Free courses",
+    "description": "A university-level introduction to computational thinking, Python, algorithms and problem solving, with course materials and assignments. Provider: MIT OpenCourseWare",
+    "url": "src/pages/courses/index.html#mit-python-6001",
+    "tags": [
+      "computer-science",
+      "python",
+      "algorithms",
+      "programming"
+    ],
+    "catalogType": "course"
+  },
+  {
+    "title": "OpenLearn — Introducing computing and IT",
+    "category": "Free courses",
+    "description": "An introductory course on computing, digital technologies, data storage and online safety. Provider: The Open University OpenLearn",
+    "url": "src/pages/courses/index.html#openlearn-intro-computing",
+    "tags": [
+      "computer-science",
+      "digital-skills",
+      "security"
+    ],
+    "catalogType": "course"
+  },
+  {
+    "title": "Saylor Academy CS101 — Introduction to Programming I",
+    "category": "Free courses",
+    "description": "Self-paced programming and computer science fundamentals with assessments and a final exam. Provider: Saylor Academy",
+    "url": "src/pages/courses/index.html#saylor-cs101",
+    "tags": [
+      "programming",
+      "computer-science",
+      "algorithms"
+    ],
+    "catalogType": "course"
+  },
+  {
+    "title": "IBM SkillsBuild — AI, cybersecurity, data and cloud learning",
+    "category": "Free courses",
+    "description": "A catalog of career-focused courses and learning paths with practical topics and digital credentials on selected learning experiences. Provider: IBM SkillsBuild",
+    "url": "src/pages/courses/index.html#ibm-skillsbuild",
+    "tags": [
+      "ai",
+      "cybersecurity",
+      "data",
+      "cloud",
+      "digital-skills"
+    ],
+    "catalogType": "course"
+  },
+  {
+    "title": "Microsoft Learn — Introduction to Cloud Infrastructure",
+    "category": "Free courses",
+    "description": "A beginner learning path on cloud concepts and Azure services, with guided practical projects. Provider: Microsoft Learn",
+    "url": "src/pages/courses/index.html#microsoft-learn-cloud",
+    "tags": [
+      "cloud",
+      "azure",
+      "devops"
+    ],
+    "catalogType": "course"
+  },
+  {
+    "title": "Kaggle Learn — Computer Vision",
+    "category": "Free courses",
+    "description": "A practical course on convolutional neural networks, TensorFlow and Keras with coding exercises. Provider: Kaggle Learn",
+    "url": "src/pages/courses/index.html#kaggle-computer-vision",
+    "tags": [
+      "ai",
+      "machine-learning",
+      "data",
+      "python"
+    ],
+    "catalogType": "course"
+  },
+  {
+    "title": "Cisco Networking Academy — Introduction to Cybersecurity",
+    "category": "Free courses",
+    "description": "A beginner course introducing cybersecurity careers, threats and protection concepts. Provider: Cisco Networking Academy",
+    "url": "src/pages/courses/index.html#cisco-cybersecurity",
+    "tags": [
+      "cybersecurity",
+      "networks",
+      "digital-skills"
+    ],
+    "catalogType": "course"
+  },
+  {
+    "title": "TryHackMe — Free cybersecurity rooms",
+    "category": "Free courses",
+    "description": "Hands-on browser-based cybersecurity rooms across beginner and advanced topics; the free plan has limited paths and AttackBox time. Provider: TryHackMe",
+    "url": "src/pages/courses/index.html#tryhackme-free-rooms",
+    "tags": [
+      "cybersecurity",
+      "linux",
+      "networks"
+    ],
+    "catalogType": "course"
+  },
+  {
+    "title": "PortSwigger Web Security Academy",
+    "category": "Free courses",
+    "description": "Free web security lessons and interactive labs covering vulnerabilities such as SQL injection, XSS, authentication and access control. Provider: PortSwigger",
+    "url": "src/pages/courses/index.html#portswigger-academy",
+    "tags": [
+      "cybersecurity",
+      "web",
+      "backend",
+      "apis"
+    ],
+    "catalogType": "course"
+  },
+  {
+    "title": "HTB Academy — free Fundamental modules",
+    "category": "Free courses",
+    "description": "Guided cybersecurity lessons with browser-based practice; the free account includes a limited number of cubes for selected Fundamental modules. Provider: Hack The Box Academy",
+    "url": "src/pages/courses/index.html#htb-academy-fundamentals",
+    "tags": [
+      "cybersecurity",
+      "linux",
+      "networks"
+    ],
+    "catalogType": "course"
+  },
+  {
+    "title": "Google Cloud Skills Boost — Introduction to Generative AI",
+    "category": "Free courses",
+    "description": "A short introduction to generative AI concepts, large language models and Google Cloud tools. Provider: Google Cloud Skills Boost",
+    "url": "src/pages/courses/index.html#google-cloud-genai",
+    "tags": [
+      "ai",
+      "cloud"
+    ],
+    "catalogType": "course"
+  },
+  {
+    "title": "edX — eligible free-audit courses",
+    "category": "Free courses",
+    "description": "Find open courses with a free audit track. Audit access is temporary and can exclude graded assignments; certificates are paid and some courses have no audit option. Provider: edX",
+    "url": "src/pages/courses/index.html#edx-audit-directory",
+    "tags": [
+      "programming",
+      "computer-science",
+      "ai",
+      "data",
+      "cybersecurity"
+    ],
+    "catalogType": "course"
+  },
+  {
+    "title": "Coursera — Python Programming Essentials (preview)",
+    "category": "Free courses",
+    "description": "A beginner course from Rice University. The no-cost option currently previews the first module; full access and the shareable certificate require payment or eligible financial aid. Provider: Coursera",
+    "url": "src/pages/courses/index.html#coursera-python-preview",
+    "tags": [
+      "python",
+      "programming"
+    ],
+    "catalogType": "course"
+  },
+  {
+    "title": "Alison — Programming Using Python",
+    "category": "Free courses",
+    "description": "A free online Python course covering programming fundamentals. Optional Alison certificates are a separate paid product; check the current checkout price before ordering. Provider: Alison",
+    "url": "src/pages/courses/index.html#alison-python",
+    "tags": [
+      "python",
+      "programming",
+      "data"
+    ],
+    "catalogType": "course"
+  },
+  {
+    "title": "roadmap.sh — role-based developer roadmaps",
+    "category": "Free courses",
+    "description": "Community-built skill roadmaps and project ideas for frontend, backend, Java, Python, DevOps, data and other tech roles. This is a guide, not a course provider. Provider: roadmap.sh",
+    "url": "src/pages/courses/index.html#roadmap-sh-pathways",
+    "tags": [
+      "web",
+      "backend",
+      "java",
+      "python",
+      "devops",
+      "data",
+      "computer-science"
+    ],
+    "catalogType": "course"
+  },
+  {
+    "title": "Class Central — free-course discovery directory",
+    "category": "Free courses",
+    "description": "Search and compare courses from universities and learning platforms. Class Central is a discovery directory; always verify free access and certificate terms with the course provider. Provider: Class Central",
+    "url": "src/pages/courses/index.html#class-central-directory",
+    "tags": [
+      "computer-science",
+      "programming",
+      "data",
+      "cybersecurity",
+      "cloud"
+    ],
+    "catalogType": "course"
+  },
+  {
+    "title": "MDN Learn web development",
+    "category": "Free resources",
+    "description": "Structured HTML, CSS and JavaScript lessons with practical examples and accessibility guidance. Provider: Mozilla",
+    "url": "src/pages/resources/index.html#mdn-web",
+    "tags": [
+      "html",
+      "css",
+      "javascript",
+      "frontend",
+      "accessibility",
+      "beginner"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "JavaScript Guide",
+    "category": "Free resources",
+    "description": "Core JavaScript concepts, objects, functions, promises and modules from the language reference publisher. Provider: Mozilla",
+    "url": "src/pages/resources/index.html#javascript-mdn",
+    "tags": [
+      "javascript",
+      "programming",
+      "frontend",
+      "backend"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "Python tutorial",
+    "category": "Free resources",
+    "description": "The official Python tutorial introduces syntax, data structures, modules, errors and classes. Provider: Python Software Foundation",
+    "url": "src/pages/resources/index.html#python-docs",
+    "tags": [
+      "python",
+      "programming",
+      "beginner"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "dev.java — Java learning and tutorials",
+    "category": "Free resources",
+    "description": "Official Java language learning material, including object-oriented programming, collections, concurrency and tools. Provider: Oracle",
+    "url": "src/pages/resources/index.html#java-dev",
+    "tags": [
+      "java",
+      "object-oriented-programming",
+      "programming"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "PostgreSQL tutorial",
+    "category": "Free resources",
+    "description": "Official introduction to relational database concepts and SQL with PostgreSQL. Provider: PostgreSQL Global Development Group",
+    "url": "src/pages/resources/index.html#postgres-tutorial",
+    "tags": [
+      "sql",
+      "postgresql",
+      "databases",
+      "backend"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "SQLite SQL language reference",
+    "category": "Free resources",
+    "description": "A concise reference for SQL statements and expressions supported by SQLite. Provider: SQLite",
+    "url": "src/pages/resources/index.html#sqlite-sql",
+    "tags": [
+      "sql",
+      "sqlite",
+      "databases"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "SQLBolt interactive lessons",
+    "category": "Free resources",
+    "description": "Short interactive lessons and exercises for practising SQL queries in a browser. Provider: SQLBolt",
+    "url": "src/pages/resources/index.html#sqlbolt",
+    "tags": [
+      "sql",
+      "databases",
+      "practice"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "Pro Git",
+    "category": "Free resources",
+    "description": "The complete Pro Git book is available to read online, from basic commands to collaboration and internals. Provider: Git",
+    "url": "src/pages/resources/index.html#git-book",
+    "tags": [
+      "git",
+      "github",
+      "open-source",
+      "tools"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "GitHub Skills",
+    "category": "Free resources",
+    "description": "Interactive, repository-based courses for GitHub workflows, pull requests, Markdown and automation. Provider: GitHub",
+    "url": "src/pages/resources/index.html#github-skills",
+    "tags": [
+      "git",
+      "github",
+      "open-source",
+      "practice"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "The Missing Semester of Your CS Education",
+    "category": "Free resources",
+    "description": "Practical lessons on shell tools, editors, version control, debugging, security and command-line workflows. Provider: MIT",
+    "url": "src/pages/resources/index.html#missing-semester",
+    "tags": [
+      "linux",
+      "bash",
+      "git",
+      "tools",
+      "computer-science"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "Linux Journey",
+    "category": "Free resources",
+    "description": "The official Linux Journey beginner lessons now live on LabEx. The provider says the lessons are free and open source; separate LabEx practice products can have their own conditions. Provider: Linux Journey / LabEx",
+    "url": "src/pages/resources/index.html#linux-journey",
+    "tags": [
+      "linux",
+      "bash",
+      "systems",
+      "networking"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "Docker Get Started",
+    "category": "Free resources",
+    "description": "Official hands-on introduction to containers, images, Dockerfiles and multi-container applications. Provider: Docker",
+    "url": "src/pages/resources/index.html#docker-get-started",
+    "tags": [
+      "docker",
+      "devops",
+      "containers",
+      "backend"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "GitHub Actions documentation",
+    "category": "Free resources",
+    "description": "Learn continuous integration and delivery workflows using GitHub Actions; hosted runner usage has service limits and terms. Provider: GitHub",
+    "url": "src/pages/resources/index.html#github-actions",
+    "tags": [
+      "ci-cd",
+      "devops",
+      "github",
+      "testing"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "Cloudflare Developers",
+    "category": "Free resources",
+    "description": "Developer documentation, tutorials and examples for web performance, security, networking and serverless development. Provider: Cloudflare",
+    "url": "src/pages/resources/index.html#cloudflare-workers",
+    "tags": [
+      "cloud",
+      "serverless",
+      "web",
+      "security",
+      "apis"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "AWS Skill Builder — free digital training",
+    "category": "Free resources",
+    "description": "Search AWS training and digital learning. Some courses are free; subscriptions, labs and certification exams may cost extra, so check each item. Provider: Amazon Web Services",
+    "url": "src/pages/resources/index.html#aws-skill-builder",
+    "tags": [
+      "aws",
+      "cloud",
+      "devops",
+      "data"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "pandas getting started",
+    "category": "Free resources",
+    "description": "Official tutorials for loading, cleaning, selecting, grouping and visualising tabular data in Python. Provider: pandas",
+    "url": "src/pages/resources/index.html#pandas-getting-started",
+    "tags": [
+      "python",
+      "data-analysis",
+      "data-visualisation",
+      "pandas"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "Kaggle datasets and notebooks",
+    "category": "Free resources",
+    "description": "Explore public datasets and runnable notebooks for data analysis and machine-learning practice; competition terms vary. Provider: Kaggle",
+    "url": "src/pages/resources/index.html#kaggle-datasets",
+    "tags": [
+      "data",
+      "python",
+      "machine-learning",
+      "practice"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "OWASP Top 10",
+    "category": "Free resources",
+    "description": "An awareness document describing prominent web application security risks. Use it as a starting point, not a complete security checklist. Provider: OWASP Foundation",
+    "url": "src/pages/resources/index.html#owasp-top10",
+    "tags": [
+      "security",
+      "web",
+      "backend",
+      "owasp"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "OWASP WebGoat",
+    "category": "Free resources",
+    "description": "An intentionally insecure application for learning common web application security lessons in an authorised local environment. Provider: OWASP Foundation",
+    "url": "src/pages/resources/index.html#owasp-webgoat",
+    "tags": [
+      "security",
+      "web",
+      "practice",
+      "java"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "PortSwigger Web Security Academy labs",
+    "category": "Free resources",
+    "description": "Free interactive labs for practising web security topics. Only test systems you own or are explicitly authorised to assess. Provider: PortSwigger",
+    "url": "src/pages/resources/index.html#portswigger-labs",
+    "tags": [
+      "security",
+      "web",
+      "practice",
+      "apis"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "OverTheWire Bandit",
+    "category": "Free resources",
+    "description": "A legal beginner wargame for practising Linux commands and basic security concepts through SSH challenges. Provider: OverTheWire",
+    "url": "src/pages/resources/index.html#over-the-wire",
+    "tags": [
+      "linux",
+      "security",
+      "bash",
+      "practice"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "VisuAlgo",
+    "category": "Free resources",
+    "description": "Animated visualisations and quiz exercises for data structures and algorithms. Provider: National University of Singapore",
+    "url": "src/pages/resources/index.html#algorithm-visualiser",
+    "tags": [
+      "algorithms",
+      "computer-science",
+      "practice"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "Project Euler",
+    "category": "Free resources",
+    "description": "Mathematical and programming problems designed to build problem-solving skills progressively. Provider: Project Euler",
+    "url": "src/pages/resources/index.html#project-euler",
+    "tags": [
+      "algorithms",
+      "programming",
+      "practice",
+      "mathematics"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "Exercism coding practice",
+    "category": "Free resources",
+    "description": "Free language tracks with coding exercises, tests and community mentoring; track availability varies by language. Provider: Exercism",
+    "url": "src/pages/resources/index.html#exercism",
+    "tags": [
+      "practice",
+      "java",
+      "python",
+      "javascript",
+      "programming"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "Playwright documentation",
+    "category": "Free resources",
+    "description": "Official documentation for end-to-end testing web applications across Chromium, Firefox and WebKit. Provider: Microsoft Playwright",
+    "url": "src/pages/resources/index.html#playwright-docs",
+    "tags": [
+      "testing",
+      "qa",
+      "javascript",
+      "web"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "Testing Library",
+    "category": "Free resources",
+    "description": "Guidance and tools for testing user-facing behavior in web applications. Provider: Testing Library",
+    "url": "src/pages/resources/index.html#testing-library",
+    "tags": [
+      "testing",
+      "qa",
+      "javascript",
+      "accessibility"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "OpenAPI Specification and learning resources",
+    "category": "Free resources",
+    "description": "Learn how to describe HTTP APIs using the OpenAPI standard and browse official examples and tools. Provider: OpenAPI Initiative",
+    "url": "src/pages/resources/index.html#openapi-guide",
+    "tags": [
+      "apis",
+      "backend",
+      "documentation",
+      "testing"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "Google Technical Writing Courses",
+    "category": "Free resources",
+    "description": "Free self-paced lessons on technical writing, documentation and developer communication. Provider: Google Developers",
+    "url": "src/pages/resources/index.html#google-tech-writing",
+    "tags": [
+      "communication",
+      "writing",
+      "documentation",
+      "career"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "How to Contribute to Open Source",
+    "category": "Free resources",
+    "description": "A practical guide to finding projects, making contributions and working with maintainers. Provider: GitHub Open Source Guides",
+    "url": "src/pages/resources/index.html#opensource-guide",
+    "tags": [
+      "open-source",
+      "github",
+      "git",
+      "career"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "W3C Web Accessibility Initiative",
+    "category": "Free resources",
+    "description": "Standards-based explanations, tutorials and evaluation guidance for building accessible digital experiences. Provider: W3C WAI",
+    "url": "src/pages/resources/index.html#web-accessibility",
+    "tags": [
+      "accessibility",
+      "web",
+      "design",
+      "frontend"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "web.dev Learn Accessibility",
+    "category": "Free resources",
+    "description": "A practical course on accessible web interfaces, semantics, keyboard use and assistive technology. Provider: Google Chrome for Developers",
+    "url": "src/pages/resources/index.html#webdev-accessibility",
+    "tags": [
+      "accessibility",
+      "web",
+      "frontend",
+      "design"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "Europass CV builder",
+    "category": "Free resources",
+    "description": "A free online CV builder and profile tool. Review privacy and data terms before saving personal information. Provider: European Union",
+    "url": "src/pages/resources/index.html#europass-cv",
+    "tags": [
+      "cv",
+      "career",
+      "job-search",
+      "templates"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "GitHub Student Developer Pack",
+    "category": "Free resources",
+    "description": "Student-verified developer tools and learning benefits. Offers change over time; review eligibility and each partner's terms. Provider: GitHub Education",
+    "url": "src/pages/resources/index.html#github-student-pack",
+    "tags": [
+      "student",
+      "developer-tools",
+      "career",
+      "github"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "MDN HTTP overview",
+    "category": "Free resources",
+    "description": "A clear overview of HTTP requests, responses, methods, headers, caching and security. Provider: Mozilla",
+    "url": "src/pages/resources/index.html#mdn-http",
+    "tags": [
+      "apis",
+      "backend",
+      "web",
+      "networking"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "freeCodeCamp interview preparation",
+    "category": "Free resources",
+    "description": "Free programming interview practice and learning material; role requirements vary between employers. Provider: freeCodeCamp",
+    "url": "src/pages/resources/index.html#freecodecamp-interview",
+    "tags": [
+      "interview",
+      "career",
+      "algorithms",
+      "programming"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "SAYouth.mobi opportunity portal",
+    "category": "Free resources",
+    "description": "South African youth opportunity platform. Search the official portal for current programmes and confirm each listing's terms before applying. Provider: SAYouth",
+    "url": "src/pages/resources/index.html#sa-youth",
+    "tags": [
+      "south-africa",
+      "jobs",
+      "learnerships",
+      "training",
+      "funding"
+    ],
+    "catalogType": "resource"
+  },
+  {
+    "title": "iHub Africa — 2027 digital skills intake",
+    "category": "Plug Hub",
+    "description": "iHub's overview describes free full-time digital marketing and web development training. Its current application process page is titled Intake 2027, but the overview still contains 2026 cohort copy, so confirm the next cohort, location, age and education requirements directly before applying. Provider: iHub Africa Categories: free-coding-academies, free-digital-skills, career-development",
+    "url": "src/pages/plug-hub/plug-hub.html#ihub-2027",
+    "tags": [
+      "free-coding-academies",
+      "free-digital-skills",
+      "career-development",
+      "web development",
+      "digital marketing",
+      "workplace skills"
+    ],
+    "catalogType": "opportunity"
+  },
+  {
+    "title": "WeThinkCode_ — software development academy",
+    "category": "Plug Hub",
+    "description": "WeThinkCode_ describes a tuition-free South African software development academy. Its application portal calls the flagship programme two years, while its Enrol page describes 16 months of full-time, on-campus study. The live intake and application deadline still need confirmation. Provider: WeThinkCode_ Categories: free-coding-academies, free-digital-skills, career-development",
+    "url": "src/pages/plug-hub/plug-hub.html#wethinkcode-main",
+    "tags": [
+      "free-coding-academies",
+      "free-digital-skills",
+      "career-development",
+      "software development",
+      "backend",
+      "career readiness"
+    ],
+    "catalogType": "opportunity"
+  },
+  {
+    "title": "CAPACITI — AI Skills Accelerator",
+    "category": "Plug Hub",
+    "description": "A one-week, fully funded AI and digital skills programme described for young unemployed South Africans. The public programme page did not give a current cohort date or application deadline, so confirm availability with CAPACITI. Provider: CAPACITI / UVU Africa Categories: free-digital-skills, career-development",
+    "url": "src/pages/plug-hub/plug-hub.html#capaciti-ai-accelerator",
+    "tags": [
+      "free-digital-skills",
+      "career-development",
+      "AI",
+      "digital skills"
+    ],
+    "catalogType": "opportunity"
+  },
+  {
+    "title": "Umuzi Experience Lab Explorers — paid project work",
+    "category": "Plug Hub",
+    "description": "A paid project-work programme for people who already have a digital or technical skill. Umuzi says participants receive direct payments for work and tasks; the amount depends on work completed and is not published as a guaranteed salary. Provider: Umuzi Categories: remote-work, freelance-gigs, paid-ai-data-projects, career-development",
+    "url": "src/pages/plug-hub/plug-hub.html#umuzi-experience-lab",
+    "tags": [
+      "remote-work",
+      "freelance-gigs",
+      "paid-ai-data-projects",
+      "career-development",
+      "software development",
+      "web applications",
+      "data",
+      "project management",
+      "digital marketing"
+    ],
+    "catalogType": "opportunity"
+  },
+  {
+    "title": "Umuzi — SAP Educate to Employ",
+    "category": "Plug Hub",
+    "description": "A free learning pathway covering career options in SAP-related HR, technology, finance and customer support. The programme page did not show a current cohort deadline in this review. Provider: Umuzi Categories: free-digital-skills, free-coding-academies, career-development",
+    "url": "src/pages/plug-hub/plug-hub.html#umuzi-sap-educate-employ",
+    "tags": [
+      "free-digital-skills",
+      "free-coding-academies",
+      "career-development",
+      "SAP",
+      "technology",
+      "finance",
+      "customer support"
+    ],
+    "catalogType": "opportunity"
+  },
+  {
+    "title": "Zaio Data Science Bootcamp — October 2026 intake",
+    "category": "Plug Hub",
+    "description": "An upcoming beginner-friendly online bootcamp with Python, analytics, machine learning and data visualisation. The official Zaio programme page lists applications closing 15 October 2026 and a bootcamp intake starting 27 October 2026. Provider: Zaio Categories: paid-training-programmes",
+    "url": "src/pages/plug-hub/plug-hub.html#zaio-data-science-bootcamp-oct-2026",
+    "tags": [
+      "paid-training-programmes",
+      "Python",
+      "data analytics",
+      "machine learning",
+      "data visualisation"
+    ],
+    "catalogType": "opportunity"
+  },
+  {
+    "title": "GirlCode — coding, skills acceleration and learnership programmes",
+    "category": "Plug Hub",
+    "description": "GirlCode lists coding bootcamps, skills acceleration, learnerships and clubs for girls and women. Funding and eligibility differ by programme; no current cohort, fee status or stipend was confirmed from the overview page. Provider: GirlCode Categories: free-digital-skills, learnerships, internships, career-development",
+    "url": "src/pages/plug-hub/plug-hub.html#girlcode-programmes",
+    "tags": [
+      "free-digital-skills",
+      "learnerships",
+      "internships",
+      "career-development",
+      "software development",
+      "cloud",
+      "digital skills"
+    ],
+    "catalogType": "opportunity"
+  },
+  {
+    "title": "CodeSpace Academy — courses and limited scholarships",
+    "category": "Plug Hub",
+    "description": "CodeSpace offers paid coding courses and says it has a limited number of scholarships based on merit and financial need. No current scholarship deadline or cohort terms were confirmed on the overview page. Provider: CodeSpace Academy Categories: paid-training-programmes, bursaries-scholarships, career-development",
+    "url": "src/pages/plug-hub/plug-hub.html#codespace-scholarships",
+    "tags": [
+      "paid-training-programmes",
+      "bursaries-scholarships",
+      "career-development",
+      "web development",
+      "software development"
+    ],
+    "catalogType": "opportunity"
+  },
+  {
+    "title": "Zaio — paid tech courses and 2026–27 intakes",
+    "category": "Plug Hub",
+    "description": "Zaio's current programme page lists paid bootcamps and occupational certificates with specific 2026–27 closing dates. Compare the programme price, exam fees and finance terms before applying. Provider: Zaio Categories: paid-training-programmes, career-development",
+    "url": "src/pages/plug-hub/plug-hub.html#zaio-current-programmes",
+    "tags": [
+      "paid-training-programmes",
+      "career-development",
+      "software development",
+      "AI",
+      "data science",
+      "cybersecurity",
+      "cloud",
+      "DevOps"
+    ],
+    "catalogType": "opportunity"
+  },
+  {
+    "title": "SAYouth.mobi — search youth opportunities",
+    "category": "Plug Hub",
+    "description": "An official South African youth opportunity portal. Search the live portal for current openings and confirm each listing's employer, requirements, location, closing date and payment terms. Provider: SAYouth Categories: jobs-entry-level, internships, apprenticeships, learnerships, graduate-programmes, bursaries-scholarships",
+    "url": "src/pages/plug-hub/plug-hub.html#sa-youth-portal",
+    "tags": [
+      "jobs-entry-level",
+      "internships",
+      "apprenticeships",
+      "learnerships",
+      "graduate-programmes",
+      "bursaries-scholarships"
+    ],
+    "catalogType": "opportunity"
+  },
+  {
+    "title": "NSFAS 2027 student funding applications",
+    "category": "Plug Hub",
+    "description": "The official NSFAS site currently says 2027 funding applications are open and free to submit for eligible students at public universities and TVET colleges. NSFAS and a government announcement publish different closing dates, so check the live portal before relying on a deadline. Provider: National Student Financial Aid Scheme Categories: bursaries-scholarships, student-support",
+    "url": "src/pages/plug-hub/plug-hub.html#nsfas-funding-guide",
+    "tags": [
+      "bursaries-scholarships",
+      "student-support",
+      "student funding",
+      "public university",
+      "TVET college"
+    ],
+    "catalogType": "opportunity"
+  },
+  {
+    "title": "GitHub Student Developer Pack",
+    "category": "Plug Hub",
+    "description": "A collection of developer tools and learning benefits for verified students. Each partner offer has its own eligibility, duration and possible usage limits. Provider: GitHub Education Categories: career-development, open-source-programmes, student-essentials",
+    "url": "src/pages/plug-hub/plug-hub.html#github-student-pack",
+    "tags": [
+      "career-development",
+      "open-source-programmes",
+      "student-essentials",
+      "developer tools",
+      "GitHub",
+      "open source"
+    ],
+    "catalogType": "opportunity"
+  },
+  {
+    "title": "Micro1 individual opportunities",
+    "category": "Plug Hub",
+    "description": "Micro1 describes remote opportunities for domain experts and a separate candidate referral programme. The current official expert page is linked here; the specific KIT tracking URL returned HTTP 404 during the 10 October 2026 link check, so attribution is not confirmed. Provider: Micro1 Categories: jobs-entry-level, remote-work, freelance-gigs, referral-affiliate-programmes",
+    "url": "src/pages/plug-hub/plug-hub.html#micro1-individuals",
+    "tags": [
+      "jobs-entry-level",
+      "remote-work",
+      "freelance-gigs",
+      "referral-affiliate-programmes",
+      "Varies by role"
+    ],
+    "catalogType": "opportunity"
+  },
+  {
+    "title": "Micro1 business registration",
+    "category": "Plug Hub",
+    "description": "Micro1 has a company data-partnership referral programme for qualifying businesses. The current official programme page is linked here; the specific KIT tracking URL returned HTTP 404 during the 10 October 2026 link check, so attribution is not confirmed. Provider: Micro1 Categories: business-partnerships, referral-affiliate-programmes",
+    "url": "src/pages/plug-hub/plug-hub.html#micro1-business",
+    "tags": [
+      "business-partnerships",
+      "referral-affiliate-programmes"
+    ],
+    "catalogType": "opportunity"
+  },
+  {
+    "title": "EvoHacks2026 — AI in Automation",
+    "category": "Flex Your Code",
+    "description": "A beginner-friendly online AI automation hackathon for high-school students. Teams of up to four may build between 10 and 11 October; project submission closes 11 October at 12:00 PDT. Provider: EvoHacks / Devpost Categories: hackathons-and-paid-challenges",
+    "url": "src/pages/flex-your-code/index.html#evohacks-2026",
+    "tags": [
+      "hackathons-and-paid-challenges",
+      "AI",
+      "automation",
+      "web",
+      "software",
+      "non-cash"
+    ],
+    "catalogType": "opportunity"
+  },
+  {
+    "title": "Next Byte Hacks V5",
+    "category": "Flex Your Code",
+    "description": "An online open-ended, beginner-friendly student hackathon for software or hardware projects. The official page lists a deadline of 31 October 2026 at 17:00 EDT. Provider: Next Byte Hacks / Devpost Categories: hackathons-and-paid-challenges",
+    "url": "src/pages/flex-your-code/index.html#next-byte-hacks-v5",
+    "tags": [
+      "hackathons-and-paid-challenges",
+      "software",
+      "hardware",
+      "AI",
+      "web",
+      "social good",
+      "cash-and-non-cash"
+    ],
+    "catalogType": "opportunity"
+  },
+  {
+    "title": "National Youth Development Agency — Opportunities Corner",
+    "category": "Plug Hub",
+    "description": "The NYDA Opportunities Corner links to youth services and external vacancies, internships, bursaries and programmes. Confirm each listing with the named employer or provider; it is a discovery directory, not a single application. Provider: National Youth Development Agency Categories: jobs-entry-level, internships, learnerships, bursaries-scholarships, career-development",
+    "url": "src/pages/plug-hub/plug-hub.html#nyda-opportunities",
+    "tags": [
+      "jobs-entry-level",
+      "internships",
+      "learnerships",
+      "bursaries-scholarships",
+      "career-development"
+    ],
+    "catalogType": "opportunity"
+  },
+  {
+    "title": "Student Hub",
+    "category": "Learn and grow",
+    "description": "A practical dashboard for free learning, academies, jobs, funding, projects, student support and your private saved-opportunity tracker.",
+    "url": "src/pages/make-money/index.html",
+    "tags": [
+      "student",
+      "hub",
+      "funding",
+      "jobs",
+      "tracker"
+    ],
+    "catalogType": "page"
+  },
+  {
+    "title": "Flex Your Code",
+    "category": "Competitions",
+    "description": "Beginner-friendly coding competition listings, free-entry checks, hackathon guides and submission templates.",
+    "url": "src/pages/flex-your-code/index.html",
+    "tags": [
+      "hackathon",
+      "competition",
+      "coding",
+      "prizes"
+    ],
+    "catalogType": "page"
   }
 ]
