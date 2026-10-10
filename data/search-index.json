@@ -1,0 +1,175 @@
+[
+  {
+    "title": "Home",
+    "category": "KIT",
+    "description": "A personal technology platform for learning, building and sharing in public.",
+    "url": "index.html",
+    "tags": [
+      "KIT",
+      "technology",
+      "home"
+    ]
+  },
+  {
+    "title": "Meet Khethi",
+    "category": "About",
+    "description": "The person behind Khethi in Tech and the learning journey being documented here.",
+    "url": "src/pages/meet-millie/index.html",
+    "tags": [
+      "about",
+      "journey",
+      "student"
+    ]
+  },
+  {
+    "title": "Portfolio",
+    "category": "Build",
+    "description": "Projects and experiments built while learning software engineering.",
+    "url": "src/pages/portfolio/index.html",
+    "tags": [
+      "projects",
+      "software",
+      "build"
+    ]
+  },
+  {
+    "title": "Learning pathways",
+    "category": "Learn",
+    "description": "Starting points for web development, software engineering, data and cybersecurity.",
+    "url": "src/pages/learn/index.html",
+    "tags": [
+      "roadmap",
+      "web development",
+      "cybersecurity",
+      "data"
+    ]
+  },
+  {
+    "title": "Free resources",
+    "category": "Learn",
+    "description": "A curated collection of free, practical learning links from primary sources.",
+    "url": "src/pages/resources/index.html",
+    "tags": [
+      "free",
+      "docs",
+      "tools",
+      "learning"
+    ]
+  },
+  {
+    "title": "Course notes",
+    "category": "Learn",
+    "description": "How to choose courses and combine them with hands-on practice.",
+    "url": "src/pages/courses/index.html",
+    "tags": [
+      "courses",
+      "certifications",
+      "study"
+    ]
+  },
+  {
+    "title": "Career advice for students",
+    "category": "Learn",
+    "description": "Practical prompts for building skills, asking for feedback and exploring technology careers.",
+    "url": "src/pages/advice/index.html",
+    "tags": [
+      "career",
+      "advice",
+      "students",
+      "jobs"
+    ]
+  },
+  {
+    "title": "Practical cheatsheets",
+    "category": "Learn",
+    "description": "Quick references for Git, command line and web fundamentals.",
+    "url": "src/pages/cheatsheets/index.html",
+    "tags": [
+      "cheatsheet",
+      "git",
+      "terminal",
+      "html"
+    ]
+  },
+  {
+    "title": "Plug Hub: Business opportunities",
+    "category": "Earn",
+    "description": "Micro1's business registration route with KIT's referral tracking link.",
+    "url": "src/pages/plug-hub/plug-hub.html#business",
+    "tags": [
+      "business",
+      "Micro1",
+      "referral",
+      "company"
+    ]
+  },
+  {
+    "title": "Plug Hub: Jobs and gigs",
+    "category": "Earn",
+    "description": "Micro1's individual opportunity route with KIT's referral tracking link.",
+    "url": "src/pages/plug-hub/plug-hub.html#individuals",
+    "tags": [
+      "jobs",
+      "gigs",
+      "Micro1",
+      "referral",
+      "individual"
+    ]
+  },
+  {
+    "title": "Building KIT in public",
+    "category": "Read",
+    "description": "A short project note about turning the KIT scaffold into a connected static platform.",
+    "url": "src/pages/blog/index.html#building-kit",
+    "tags": [
+      "blog",
+      "project",
+      "website"
+    ]
+  },
+  {
+    "title": "Student opportunity guide",
+    "category": "Earn",
+    "description": "A practical checklist for finding and checking student funding and earning opportunities.",
+    "url": "src/pages/make-money/index.html",
+    "tags": [
+      "students",
+      "funding",
+      "work",
+      "money"
+    ]
+  },
+  {
+    "title": "Digital products",
+    "category": "Earn",
+    "description": "A future home for practical learning products; no products are currently for sale.",
+    "url": "src/pages/digtial-products/index.html",
+    "tags": [
+      "products",
+      "guides",
+      "templates"
+    ]
+  },
+  {
+    "title": "One-on-one guidance",
+    "category": "Connect",
+    "description": "Current status and ways to connect; booking is not yet available.",
+    "url": "src/pages/one-on-one/index.html",
+    "tags": [
+      "support",
+      "coaching",
+      "contact"
+    ]
+  },
+  {
+    "title": "Contact",
+    "category": "Connect",
+    "description": "Connect with Khethi on LinkedIn or explore projects on GitHub.",
+    "url": "src/pages/contact/index.html",
+    "tags": [
+      "contact",
+      "LinkedIn",
+      "GitHub"
+    ]
+  }
+]
