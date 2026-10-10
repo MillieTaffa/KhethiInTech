@@ -25,6 +25,11 @@ def checked_https(url: str) -> str:
     return url
 
 
+def favicon_url(url: str) -> str:
+    host = urlparse(url).hostname or ""
+    return f"https://www.google.com/s2/favicons?domain={host}&sz=128"
+
+
 def certificate_filter(value: str) -> str:
     lowered = value.lower()
     if lowered.startswith("free"):
@@ -95,7 +100,7 @@ def course_card(row):
     certificate = row["certificate"].replace("-", " ")
     return f'''<article class="card catalog-card course-card" id="{esc(row['id'])}" data-directory-card data-category="{esc(row['subjects'][0])}" data-topics="{esc(tags)}" data-level="{esc(row['level'])}" data-duration-hours="{esc(hours if hours is not None else 'unknown')}" data-certificate="{certificate_filter(row['certificate'])}" data-access="{esc(row['access'])}" data-free="{'true' if row['access'] == 'completely-free' else 'false'}" data-title="{esc(row['title'].lower())}">
   <div class="catalog-card-head"><span class="card-label">{esc(label)}</span><span class="meta">Checked {esc(row['checkedAt'])}</span></div>
-  <h2>{esc(row['title'])}</h2><p class="provider">{esc(row['provider'])}</p><p>{esc(row['description'])}</p>
+  <div class="catalog-title"><img class="provider-logo" src="{esc(favicon_url(row['url']))}" alt="{esc(row['provider'])} logo" loading="lazy"><div><h2>{esc(row['title'])}</h2><p class="provider">{esc(row['provider'])}</p></div></div><p>{esc(row['description'])}</p>
   <div class="tag-list">{''.join(f'<span class="tag">{esc(tag.replace("-", " "))}</span>' for tag in row['subjects'][:5])}</div>
   <dl class="fact-list"><div><dt>Learning access</dt><dd>{esc(row['access'].replace('-', ' '))}</dd></div><div><dt>Certificate</dt><dd>{esc(certificate)}</dd></div><div><dt>Estimated duration</dt><dd>{esc(duration)}</dd></div></dl>
   <details class="catalog-details"><summary>Access, projects and prerequisites</summary><dl class="fact-list"><div><dt>Practice</dt><dd>{esc(row['labs'])}</dd></div><div><dt>Account</dt><dd>{esc(row['account'])}</dd></div><div><dt>Prerequisites</dt><dd>{esc(row['prerequisites'])}</dd></div><div><dt>Why this is listed</dt><dd>{esc(row['evidence'])}</dd></div></dl></details>
@@ -107,7 +112,7 @@ def resource_card(row):
     access_label = "Free core material" if row["access"] == "free" else "Free option · service limits"
     return f'''<article class="card catalog-card resource-card" id="{esc(row['id'])}" data-directory-card data-category="{esc(row['category'])}" data-level="{esc(row['level'])}" data-access="{esc(row['access'])}" data-topics="{esc(','.join(row['tags']))}" data-title="{esc(row['title'].lower())}">
   <div class="catalog-card-head"><span class="card-label">{esc(row['category'].replace('-', ' '))}</span><span class="meta">Checked {esc(row['checkedAt'])}</span></div>
-  <h2>{esc(row['title'])}</h2><p class="provider">{esc(row['provider'])}</p><p>{esc(row['description'])}</p>
+  <div class="catalog-title"><img class="provider-logo" src="{esc(favicon_url(row['url']))}" alt="{esc(row['provider'])} logo" loading="lazy"><div><h2>{esc(row['title'])}</h2><p class="provider">{esc(row['provider'])}</p></div></div><p>{esc(row['description'])}</p>
   <div class="tag-list"><span class="tag">{esc(row['level'].replace('-', ' '))}</span><span class="tag">{esc(access_label)}</span></div>
   <div class="tag-list">{''.join(f'<span class="tag">{esc(tag.replace("-", " "))}</span>' for tag in row['tags'][:5])}</div>
   <a class="text-link card-link" href="{esc(checked_https(row['url']))}" target="_blank" rel="noopener noreferrer">Open {esc(row['provider'])} ↗</a>
@@ -165,6 +170,19 @@ def money(row):
 
 
 def opportunity_card(row):
+    categories = row.get("categories", [])
+    categories_text = " ".join(categories + row.get("skills", []))
+    search_terms = " ".join([row["provider"], row["title"], row["description"], categories_text, row.get("country", ""), " ".join(row.get("regions", []))]).lower()
+    education_categories = {"free-coding-academies", "free-digital-skills", "paid-training-programmes", "bursaries-scholarships", "student-support", "student-essentials", "open-source-programmes"}
+    work_categories = {"jobs-entry-level", "remote-work", "freelance-gigs", "internships", "apprenticeships", "learnerships", "graduate-programmes", "paid-ai-data-projects", "referral-affiliate-programmes", "business-partnerships"}
+    group = "gigs" if work_categories.intersection(categories) else ("schooling" if education_categories.intersection(categories) else "gigs")
+    href = checked_https(row["sourceUrl"])
+    return f'''<article class="card opportunity-card opportunity-compact" id="{esc(row['id'])}" data-directory-card data-group="{group}" data-categories="{esc(','.join(categories))}" data-topics="{esc(categories_text)}" data-search-terms="{esc(search_terms)}" data-status="{esc(row.get('status', 'unknown'))}" data-deadline="{esc(row.get('deadline') or '')}">
+  <h3>{esc(row['provider'])}</h3><a class="text-link" href="{esc(href)}" aria-label="Visit official site for {esc(row['title'])}" target="_blank" rel="noopener noreferrer">Visit official site ↗</a>
+</article>'''
+
+
+def competition_card(row):
     is_event = row.get("kind") == "hackathon"
     categories = row.get("categories", [])
     tags = row.get("skills", [])
@@ -232,8 +250,13 @@ def main():
 
     regular = [row for row in opportunities if row.get("kind") == "opportunity"]
     events = [row for row in opportunities if row.get("kind") == "hackathon"]
-    replace_block(ROOT / "src/pages/plug-hub/plug-hub.html", "opportunity-cards", "\n".join(opportunity_card(row) for row in regular))
-    replace_block(ROOT / "src/pages/flex-your-code/index.html", "competition-cards", "\n".join(opportunity_card(row) for row in events))
+    education_categories = {"free-coding-academies", "free-digital-skills", "paid-training-programmes", "bursaries-scholarships", "student-support", "student-essentials", "open-source-programmes"}
+    work_categories = {"jobs-entry-level", "remote-work", "freelance-gigs", "internships", "apprenticeships", "learnerships", "graduate-programmes", "paid-ai-data-projects", "referral-affiliate-programmes", "business-partnerships"}
+    schooling = [row for row in regular if education_categories.intersection(row.get("categories", [])) and not work_categories.intersection(row.get("categories", []))]
+    gigs = [row for row in regular if row not in schooling]
+    replace_block(ROOT / "src/pages/plug-hub/plug-hub.html", "schooling-cards", "\n".join(opportunity_card(row) for row in schooling))
+    replace_block(ROOT / "src/pages/plug-hub/plug-hub.html", "gigs-cards", "\n".join(opportunity_card(row) for row in gigs))
+    replace_block(ROOT / "src/pages/flex-your-code/index.html", "competition-cards", "\n".join(competition_card(row) for row in events))
 
     index_path = ROOT / "data/search-index.json"
     static = [row for row in json.loads(index_path.read_text(encoding="utf-8")) if not row.get("catalogType")]
@@ -244,6 +267,7 @@ def main():
     dynamic += [
         search_item("Student Hub", "Learn and grow", "A practical dashboard for free learning, academies, jobs, funding, projects, student support and your private saved-opportunity tracker.", "src/pages/make-money/index.html", ["student", "hub", "funding", "jobs", "tracker"], "page"),
         search_item("Flex Your Code", "Competitions", "Beginner-friendly coding competition listings, free-entry checks, hackathon guides and submission templates.", "src/pages/flex-your-code/index.html", ["hackathon", "competition", "coding", "prizes"], "page"),
+        search_item("Project Ideas", "Build", "Practical project suggestions with YouTube walkthroughs, skills to practise and ideas for making each project your own.", "src/pages/project-suggestions/index.html", ["projects", "portfolio", "youtube", "ideas"], "page"),
     ]
     merged = []
     seen = set()

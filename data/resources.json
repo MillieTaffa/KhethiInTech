@@ -53,7 +53,7 @@
   },
   {
     "id": "java-dev",
-    "title": "dev.java — Java learning and tutorials",
+    "title": "dev.java - Java learning and tutorials",
     "provider": "Oracle",
     "category": "java",
     "description": "Official Java language learning material, including object-oriented programming, collections, concurrency and tools.",
@@ -239,7 +239,7 @@
   },
   {
     "id": "aws-skill-builder",
-    "title": "AWS Skill Builder — free digital training",
+    "title": "AWS Skill Builder - free digital training",
     "provider": "Amazon Web Services",
     "category": "cloud",
     "description": "Search AWS training and digital learning. Some courses are free; subscriptions, labs and certification exams may cost extra, so check each item.",

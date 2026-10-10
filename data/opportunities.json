@@ -2,7 +2,7 @@
   {
     "id": "ihub-2027",
     "kind": "opportunity",
-    "title": "iHub Africa — 2027 digital skills intake",
+    "title": "iHub Africa - 2027 digital skills intake",
     "provider": "iHub Africa",
     "categories": [
       "free-coding-academies",
@@ -62,7 +62,7 @@
   {
     "id": "wethinkcode-main",
     "kind": "opportunity",
-    "title": "WeThinkCode_ — software development academy",
+    "title": "WeThinkCode_ - software development academy",
     "provider": "WeThinkCode_",
     "categories": [
       "free-coding-academies",
@@ -125,7 +125,7 @@
   {
     "id": "capaciti-ai-accelerator",
     "kind": "opportunity",
-    "title": "CAPACITI — AI Skills Accelerator",
+    "title": "CAPACITI - AI Skills Accelerator",
     "provider": "CAPACITI / UVU Africa",
     "categories": [
       "free-digital-skills",
@@ -181,7 +181,7 @@
   {
     "id": "umuzi-experience-lab",
     "kind": "opportunity",
-    "title": "Umuzi Experience Lab Explorers — paid project work",
+    "title": "Umuzi Experience Lab Explorers - paid project work",
     "provider": "Umuzi",
     "categories": [
       "remote-work",
@@ -242,7 +242,7 @@
   {
     "id": "umuzi-sap-educate-employ",
     "kind": "opportunity",
-    "title": "Umuzi — SAP Educate to Employ",
+    "title": "Umuzi - SAP Educate to Employ",
     "provider": "Umuzi",
     "categories": [
       "free-digital-skills",
@@ -301,7 +301,7 @@
   {
     "id": "zaio-data-science-bootcamp-oct-2026",
     "kind": "opportunity",
-    "title": "Zaio Data Science Bootcamp — October 2026 intake",
+    "title": "Zaio Data Science Bootcamp - October 2026 intake",
     "provider": "Zaio",
     "categories": [
       "paid-training-programmes"
@@ -360,7 +360,7 @@
   {
     "id": "girlcode-programmes",
     "kind": "opportunity",
-    "title": "GirlCode — coding, skills acceleration and learnership programmes",
+    "title": "GirlCode - coding, skills acceleration and learnership programmes",
     "provider": "GirlCode",
     "categories": [
       "free-digital-skills",
@@ -420,7 +420,7 @@
   {
     "id": "codespace-scholarships",
     "kind": "opportunity",
-    "title": "CodeSpace Academy — courses and limited scholarships",
+    "title": "CodeSpace Academy - courses and limited scholarships",
     "provider": "CodeSpace Academy",
     "categories": [
       "paid-training-programmes",
@@ -477,7 +477,7 @@
   {
     "id": "zaio-current-programmes",
     "kind": "opportunity",
-    "title": "Zaio — paid tech courses and 2026–27 intakes",
+    "title": "Zaio - paid tech courses and 2026–27 intakes",
     "provider": "Zaio",
     "categories": [
       "paid-training-programmes",
@@ -538,7 +538,7 @@
   {
     "id": "sa-youth-portal",
     "kind": "opportunity",
-    "title": "SAYouth.mobi — search youth opportunities",
+    "title": "SAYouth.mobi - search youth opportunities",
     "provider": "SAYouth",
     "categories": [
       "jobs-entry-level",
@@ -826,7 +826,7 @@
   {
     "id": "evohacks-2026",
     "kind": "hackathon",
-    "title": "EvoHacks2026 — AI in Automation",
+    "title": "EvoHacks2026 - AI in Automation",
     "provider": "EvoHacks / Devpost",
     "categories": [
       "hackathons-and-paid-challenges"
@@ -961,7 +961,7 @@
   {
     "id": "nyda-opportunities",
     "kind": "opportunity",
-    "title": "National Youth Development Agency — Opportunities Corner",
+    "title": "National Youth Development Agency - Opportunities Corner",
     "provider": "National Youth Development Agency",
     "categories": [
       "jobs-entry-level",

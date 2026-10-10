@@ -265,7 +265,7 @@
       let matches = 0;
       let activeMatches = 0;
       allCards.forEach(card => {
-        const termsMatch = !term || normalize(card.textContent).includes(term) || normalize(card.dataset.topics).includes(term) || normalize(card.dataset.categories).includes(term);
+        const termsMatch = !term || normalize(card.textContent).includes(term) || normalize(card.dataset.topics).includes(term) || normalize(card.dataset.categories).includes(term) || normalize(card.dataset.searchTerms).includes(term);
         const selectMatch = Object.entries(selects).every(([field, value]) => valueMatches(card, field, value));
         const chipMatch = Object.entries(chipState).every(([field, value]) => valueMatches(card, field, value));
         const show = termsMatch && selectMatch && chipMatch;
@@ -402,6 +402,20 @@
   }
 
   document.addEventListener('click', async event => {
+    const copyButton = event.target.closest('[data-copy-code]');
+    if (copyButton) {
+      const code = document.getElementById(copyButton.dataset.copyCode);
+      const status = copyButton.parentElement.querySelector('[data-copy-status]');
+      if (!code) return;
+      try {
+        await navigator.clipboard.writeText(code.innerText);
+        if (status) status.textContent = 'Copied. Go build something.';
+      } catch (_) {
+        if (status) status.textContent = 'Select and copy the code manually.';
+      }
+      return;
+    }
+
     const saveButton = event.target.closest('[data-save-opportunity]');
     if (saveButton) {
       const id = saveButton.dataset.saveOpportunity;
@@ -431,7 +445,7 @@
         const items = await opportunityDataPromise;
         const item = items.find(row => row.id === reportButton.dataset.reportLink);
         if (!item) throw new Error('Listing not found');
-        const message = 'Please review this KIT listing: ' + item.title + ' — ' + (item.applicationUrl || item.sourceUrl) + ' (last checked ' + item.checkedAt + ').';
+        const message = 'Please review this KIT listing: ' + item.title + ' - ' + (item.applicationUrl || item.sourceUrl) + ' (last checked ' + item.checkedAt + ').';
         await navigator.clipboard.writeText(message);
         if (status) status.textContent = 'Report details copied. Send them to KIT through LinkedIn or GitHub.';
       } catch (_) {

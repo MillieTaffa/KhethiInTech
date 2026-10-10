@@ -20,14 +20,16 @@ Open <http://localhost:8000/>. Serve the site over HTTP so global search can loa
 
 ```text
 index.html                  Homepage and static-site entry point
-assets/images/              Khethi’s portrait and KIT favicon
+assets/images/              Portrait, KIT favicon and credited stock photos
+assets/downloads/           Printable student and adult career guides
 css/main.css                Shared themes, layout and components
-js/main.js                  Theme, navigation, search and filters
+js/main.js                  Theme, navigation, search, filters and interactions
 data/courses.json           Curated course records
 data/resources.json         Curated free resource records
 data/opportunities.json     Shared Plug Hub and competition records
 data/search-index.json       Searchable page summaries and destinations
 scripts/build-catalogs.py   Render listing cards and rebuild global search
+scripts/build-guides.py     Print guide HTML sources to downloadable PDFs
 src/pages/                  Individual platform pages
 docs/                       Product, design and architecture notes
 ```
@@ -36,12 +38,14 @@ The old `src/index.html` path redirects to the root homepage. Page files remain 
 
 ## Main sections
 
-- **About and portfolio:** Khethi’s introduction and actual work. KIT is currently the only project listed.
+- **About and portfolio:** Khethi’s introduction, WeThinkCode_ studies, supplementary training and real projects including SentinelScanner and SocialPulse.
+- **Learning and projects:** Career-first pathways, interactive cheatsheets and project ideas with YouTube walkthroughs.
 - **Student Hub:** A ten-section dashboard for courses, resources, training, work, funding, competitions, student support and a private browser-based application tracker.
-- **Courses and resources:** Searchable, filterable directories with free access, certificate, difficulty and topic details.
+- **Courses and resources:** Searchable, filterable directories with round provider favicons and free access, certificate, difficulty and topic details.
+- **Blog:** A researched guide to growing global and South African tech career paths, linked to mostly free learning routes.
 - **Flex Your Code:** Beginner guidance and dated, free-entry competition listings, with expired events moved to an archive.
-- **Plug Hub:** A broader set of training, work, funding and student-support leads. Micro1’s current programme pages are listed separately for individuals and businesses; the supplied tracking URLs returned 404 and are not used as active application buttons until replaced.
-- **Future services:** Digital products and one-on-one support are clearly marked unavailable until there is a real offer and working flow.
+- **Plug Hub:** A research-based directory separated into schooling and training, and gigs, jobs and practical experience. Cards show the institute name and official link.
+- **Digital products:** Free downloadable PDF field guides for students and adults exploring a career in tech. One-on-one support is not available.
 
 ## Updating the site
 
@@ -61,6 +65,14 @@ python3 scripts/build-catalogs.py
 
 This generates the static cards and updates the global search index. Review the generated diff. The full manual review and expiry workflow is in [data/EDITORIAL-WORKFLOW.md](data/EDITORIAL-WORKFLOW.md).
 
+After editing either printable guide in `assets/downloads/`, regenerate its PDF with:
+
+```bash
+python3 scripts/build-guides.py
+```
+
+This requires Google Chrome or Chromium.
+
 ### Add a page
 
 Copy the shared page shell from an existing `src/pages/.../index.html` file, update its title and meta description, set the current navigation item, and add its destination to `data/search-index.json`. The shared assets are at the repository root, so nested pages use `../../../` to reach them.
@@ -76,4 +88,5 @@ There is no package manager or test framework configured. The catalog generator 
 - The application tracker uses browser local storage and does not sync to KIT or other devices.
 - The competition list, 2027 intake status and NSFAS deadline are time-sensitive; official sources currently conflict on some dates. See the editorial workflow before publishing or applying.
 - The supplied JPEG is preserved at `assets/images/khethi.jpg`; the site displays a 1200px WebP version at `assets/images/khethi.webp` to reduce image transfer size.
-- The portfolio contains only the KIT website until additional real projects are supplied.
+- Career demand summaries are snapshots from published reports. The article links the report sources and notes that demand and course terms change.
+- Course and resource provider icons load from Google's public favicon service and need an internet connection.

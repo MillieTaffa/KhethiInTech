@@ -35,13 +35,17 @@
   {
     "title": "Learning pathways",
     "category": "Learn",
-    "description": "Starting points for web development, software engineering, data and cybersecurity.",
+    "description": "Career-first roadmaps for software development, data, AI, FinTech, cybersecurity, cloud and systems analysis, with free-first courses and projects.",
     "url": "src/pages/learn/index.html",
     "tags": [
       "roadmap",
       "web development",
       "cybersecurity",
-      "data"
+      "data",
+      "AI",
+      "FinTech",
+      "software development",
+      "career"
     ]
   },
   {
@@ -92,31 +96,6 @@
     ]
   },
   {
-    "title": "Plug Hub: Business opportunities",
-    "category": "Earn",
-    "description": "Micro1's business registration route with KIT's referral tracking link.",
-    "url": "src/pages/plug-hub/plug-hub.html#business",
-    "tags": [
-      "business",
-      "Micro1",
-      "referral",
-      "company"
-    ]
-  },
-  {
-    "title": "Plug Hub: Jobs and gigs",
-    "category": "Earn",
-    "description": "Micro1's individual opportunity route with KIT's referral tracking link.",
-    "url": "src/pages/plug-hub/plug-hub.html#individuals",
-    "tags": [
-      "jobs",
-      "gigs",
-      "Micro1",
-      "referral",
-      "individual"
-    ]
-  },
-  {
     "title": "Building KIT in public",
     "category": "Read",
     "description": "A short project note about turning the KIT scaffold into a connected static platform.",
@@ -142,12 +121,14 @@
   {
     "title": "Digital products",
     "category": "Earn",
-    "description": "A future home for practical learning products; no products are currently for sale.",
+    "description": "Download free, practical PDF field guides for students and adults starting a career in technology.",
     "url": "src/pages/digtial-products/index.html",
     "tags": [
-      "products",
-      "guides",
-      "templates"
+      "free",
+      "pdf",
+      "students",
+      "adults",
+      "career"
     ]
   },
   {
@@ -173,7 +154,49 @@
     ]
   },
   {
-    "title": "freeCodeCamp — interactive developer curriculum",
+    "title": "Tech careers in demand, without the crystal ball",
+    "category": "Read",
+    "description": "A human research-based guide to growing global and South African tech careers, the skills they need and mostly free learning routes.",
+    "url": "src/pages/blog/in-demand-tech-careers.html",
+    "tags": [
+      "blog",
+      "careers",
+      "jobs",
+      "software",
+      "data",
+      "AI",
+      "cybersecurity",
+      "South Africa"
+    ]
+  },
+  {
+    "title": "Plug Hub: Schooling and training",
+    "category": "Learn",
+    "description": "Official links to South African and global tech academies, training programmes, bursaries and student resources. Information is based on research and should be confirmed with each provider.",
+    "url": "src/pages/plug-hub/plug-hub.html#schooling-title",
+    "tags": [
+      "training",
+      "schooling",
+      "bursaries",
+      "courses",
+      "South Africa"
+    ]
+  },
+  {
+    "title": "Plug Hub: Gigs, jobs and practical experience",
+    "category": "Earn",
+    "description": "Official links to jobs, internships, remote work, freelance opportunities and paid project experience.",
+    "url": "src/pages/plug-hub/plug-hub.html#gigs-title",
+    "tags": [
+      "gigs",
+      "jobs",
+      "internships",
+      "work",
+      "South Africa"
+    ]
+  },
+  {
+    "title": "freeCodeCamp - interactive developer curriculum",
     "category": "Free courses",
     "description": "Self-paced coding lessons and projects across web development, JavaScript, Python, databases and more. Provider: freeCodeCamp",
     "url": "src/pages/courses/index.html#freecodecamp-core",
@@ -189,7 +212,7 @@
     "catalogType": "course"
   },
   {
-    "title": "The Odin Project — Foundations",
+    "title": "The Odin Project - Foundations",
     "category": "Free courses",
     "description": "A project-based introduction to the command line, Git, HTML, CSS, JavaScript and web development. Provider: The Odin Project",
     "url": "src/pages/courses/index.html#odin-foundations",
@@ -202,7 +225,7 @@
     "catalogType": "course"
   },
   {
-    "title": "Harvard CS50x 2026 — Introduction to Computer Science",
+    "title": "Harvard CS50x 2026 - Introduction to Computer Science",
     "category": "Free courses",
     "description": "A broad introduction to computer science with problem sets and a final project using C, Python, SQL, HTML, CSS and JavaScript. Provider: Harvard CS50",
     "url": "src/pages/courses/index.html#cs50x-2026",
@@ -217,7 +240,7 @@
     "catalogType": "course"
   },
   {
-    "title": "Harvard CS50 — Introduction to Cybersecurity",
+    "title": "Harvard CS50 - Introduction to Cybersecurity",
     "category": "Free courses",
     "description": "Learn practical ways to secure accounts, data, systems and software, with five weeks of course material and assignments. Provider: Harvard CS50",
     "url": "src/pages/courses/index.html#cs50-cybersecurity",
@@ -230,7 +253,7 @@
     "catalogType": "course"
   },
   {
-    "title": "W3Schools — programming tutorials and exercises",
+    "title": "W3Schools - programming tutorials and exercises",
     "category": "Free courses",
     "description": "Readable, interactive tutorials for HTML, CSS, JavaScript, Python, SQL, Java, Git, PostgreSQL and many other topics. Provider: W3Schools",
     "url": "src/pages/courses/index.html#w3schools-tutorials",
@@ -246,7 +269,7 @@
     "catalogType": "course"
   },
   {
-    "title": "MIT OCW — Introduction to Computer Science and Programming in Python",
+    "title": "MIT OCW - Introduction to Computer Science and Programming in Python",
     "category": "Free courses",
     "description": "A university-level introduction to computational thinking, Python, algorithms and problem solving, with course materials and assignments. Provider: MIT OpenCourseWare",
     "url": "src/pages/courses/index.html#mit-python-6001",
@@ -259,7 +282,7 @@
     "catalogType": "course"
   },
   {
-    "title": "OpenLearn — Introducing computing and IT",
+    "title": "OpenLearn - Introducing computing and IT",
     "category": "Free courses",
     "description": "An introductory course on computing, digital technologies, data storage and online safety. Provider: The Open University OpenLearn",
     "url": "src/pages/courses/index.html#openlearn-intro-computing",
@@ -271,7 +294,7 @@
     "catalogType": "course"
   },
   {
-    "title": "Saylor Academy CS101 — Introduction to Programming I",
+    "title": "Saylor Academy CS101 - Introduction to Programming I",
     "category": "Free courses",
     "description": "Self-paced programming and computer science fundamentals with assessments and a final exam. Provider: Saylor Academy",
     "url": "src/pages/courses/index.html#saylor-cs101",
@@ -283,7 +306,7 @@
     "catalogType": "course"
   },
   {
-    "title": "IBM SkillsBuild — AI, cybersecurity, data and cloud learning",
+    "title": "IBM SkillsBuild - AI, cybersecurity, data and cloud learning",
     "category": "Free courses",
     "description": "A catalog of career-focused courses and learning paths with practical topics and digital credentials on selected learning experiences. Provider: IBM SkillsBuild",
     "url": "src/pages/courses/index.html#ibm-skillsbuild",
@@ -297,7 +320,7 @@
     "catalogType": "course"
   },
   {
-    "title": "Microsoft Learn — Introduction to Cloud Infrastructure",
+    "title": "Microsoft Learn - Introduction to Cloud Infrastructure",
     "category": "Free courses",
     "description": "A beginner learning path on cloud concepts and Azure services, with guided practical projects. Provider: Microsoft Learn",
     "url": "src/pages/courses/index.html#microsoft-learn-cloud",
@@ -309,7 +332,7 @@
     "catalogType": "course"
   },
   {
-    "title": "Kaggle Learn — Computer Vision",
+    "title": "Kaggle Learn - Computer Vision",
     "category": "Free courses",
     "description": "A practical course on convolutional neural networks, TensorFlow and Keras with coding exercises. Provider: Kaggle Learn",
     "url": "src/pages/courses/index.html#kaggle-computer-vision",
@@ -322,7 +345,7 @@
     "catalogType": "course"
   },
   {
-    "title": "Cisco Networking Academy — Introduction to Cybersecurity",
+    "title": "Cisco Networking Academy - Introduction to Cybersecurity",
     "category": "Free courses",
     "description": "A beginner course introducing cybersecurity careers, threats and protection concepts. Provider: Cisco Networking Academy",
     "url": "src/pages/courses/index.html#cisco-cybersecurity",
@@ -334,7 +357,7 @@
     "catalogType": "course"
   },
   {
-    "title": "TryHackMe — Free cybersecurity rooms",
+    "title": "TryHackMe - Free cybersecurity rooms",
     "category": "Free courses",
     "description": "Hands-on browser-based cybersecurity rooms across beginner and advanced topics; the free plan has limited paths and AttackBox time. Provider: TryHackMe",
     "url": "src/pages/courses/index.html#tryhackme-free-rooms",
@@ -359,7 +382,7 @@
     "catalogType": "course"
   },
   {
-    "title": "HTB Academy — free Fundamental modules",
+    "title": "HTB Academy - free Fundamental modules",
     "category": "Free courses",
     "description": "Guided cybersecurity lessons with browser-based practice; the free account includes a limited number of cubes for selected Fundamental modules. Provider: Hack The Box Academy",
     "url": "src/pages/courses/index.html#htb-academy-fundamentals",
@@ -371,7 +394,7 @@
     "catalogType": "course"
   },
   {
-    "title": "Google Cloud Skills Boost — Introduction to Generative AI",
+    "title": "Google Cloud Skills Boost - Introduction to Generative AI",
     "category": "Free courses",
     "description": "A short introduction to generative AI concepts, large language models and Google Cloud tools. Provider: Google Cloud Skills Boost",
     "url": "src/pages/courses/index.html#google-cloud-genai",
@@ -382,7 +405,7 @@
     "catalogType": "course"
   },
   {
-    "title": "edX — eligible free-audit courses",
+    "title": "edX - eligible free-audit courses",
     "category": "Free courses",
     "description": "Find open courses with a free audit track. Audit access is temporary and can exclude graded assignments; certificates are paid and some courses have no audit option. Provider: edX",
     "url": "src/pages/courses/index.html#edx-audit-directory",
@@ -396,7 +419,7 @@
     "catalogType": "course"
   },
   {
-    "title": "Coursera — Python Programming Essentials (preview)",
+    "title": "Coursera - Python Programming Essentials (preview)",
     "category": "Free courses",
     "description": "A beginner course from Rice University. The no-cost option currently previews the first module; full access and the shareable certificate require payment or eligible financial aid. Provider: Coursera",
     "url": "src/pages/courses/index.html#coursera-python-preview",
@@ -407,7 +430,7 @@
     "catalogType": "course"
   },
   {
-    "title": "Alison — Programming Using Python",
+    "title": "Alison - Programming Using Python",
     "category": "Free courses",
     "description": "A free online Python course covering programming fundamentals. Optional Alison certificates are a separate paid product; check the current checkout price before ordering. Provider: Alison",
     "url": "src/pages/courses/index.html#alison-python",
@@ -419,7 +442,7 @@
     "catalogType": "course"
   },
   {
-    "title": "roadmap.sh — role-based developer roadmaps",
+    "title": "roadmap.sh - role-based developer roadmaps",
     "category": "Free courses",
     "description": "Community-built skill roadmaps and project ideas for frontend, backend, Java, Python, DevOps, data and other tech roles. This is a guide, not a course provider. Provider: roadmap.sh",
     "url": "src/pages/courses/index.html#roadmap-sh-pathways",
@@ -435,7 +458,7 @@
     "catalogType": "course"
   },
   {
-    "title": "Class Central — free-course discovery directory",
+    "title": "Class Central - free-course discovery directory",
     "category": "Free courses",
     "description": "Search and compare courses from universities and learning platforms. Class Central is a discovery directory; always verify free access and certificate terms with the course provider. Provider: Class Central",
     "url": "src/pages/courses/index.html#class-central-directory",
@@ -489,7 +512,7 @@
     "catalogType": "resource"
   },
   {
-    "title": "dev.java — Java learning and tutorials",
+    "title": "dev.java - Java learning and tutorials",
     "category": "Free resources",
     "description": "Official Java language learning material, including object-oriented programming, collections, concurrency and tools. Provider: Oracle",
     "url": "src/pages/resources/index.html#java-dev",
@@ -631,7 +654,7 @@
     "catalogType": "resource"
   },
   {
-    "title": "AWS Skill Builder — free digital training",
+    "title": "AWS Skill Builder - free digital training",
     "category": "Free resources",
     "description": "Search AWS training and digital learning. Some courses are free; subscriptions, labs and certification exams may cost extra, so check each item. Provider: Amazon Web Services",
     "url": "src/pages/resources/index.html#aws-skill-builder",
@@ -918,7 +941,7 @@
     "catalogType": "resource"
   },
   {
-    "title": "iHub Africa — 2027 digital skills intake",
+    "title": "iHub Africa - 2027 digital skills intake",
     "category": "Plug Hub",
     "description": "iHub's overview describes free full-time digital marketing and web development training. Its current application process page is titled Intake 2027, but the overview still contains 2026 cohort copy, so confirm the next cohort, location, age and education requirements directly before applying. Provider: iHub Africa Categories: free-coding-academies, free-digital-skills, career-development",
     "url": "src/pages/plug-hub/plug-hub.html#ihub-2027",
@@ -933,7 +956,7 @@
     "catalogType": "opportunity"
   },
   {
-    "title": "WeThinkCode_ — software development academy",
+    "title": "WeThinkCode_ - software development academy",
     "category": "Plug Hub",
     "description": "WeThinkCode_ describes a tuition-free South African software development academy. Its application portal calls the flagship programme two years, while its Enrol page describes 16 months of full-time, on-campus study. The live intake and application deadline still need confirmation. Provider: WeThinkCode_ Categories: free-coding-academies, free-digital-skills, career-development",
     "url": "src/pages/plug-hub/plug-hub.html#wethinkcode-main",
@@ -948,7 +971,7 @@
     "catalogType": "opportunity"
   },
   {
-    "title": "CAPACITI — AI Skills Accelerator",
+    "title": "CAPACITI - AI Skills Accelerator",
     "category": "Plug Hub",
     "description": "A one-week, fully funded AI and digital skills programme described for young unemployed South Africans. The public programme page did not give a current cohort date or application deadline, so confirm availability with CAPACITI. Provider: CAPACITI / UVU Africa Categories: free-digital-skills, career-development",
     "url": "src/pages/plug-hub/plug-hub.html#capaciti-ai-accelerator",
@@ -961,7 +984,7 @@
     "catalogType": "opportunity"
   },
   {
-    "title": "Umuzi Experience Lab Explorers — paid project work",
+    "title": "Umuzi Experience Lab Explorers - paid project work",
     "category": "Plug Hub",
     "description": "A paid project-work programme for people who already have a digital or technical skill. Umuzi says participants receive direct payments for work and tasks; the amount depends on work completed and is not published as a guaranteed salary. Provider: Umuzi Categories: remote-work, freelance-gigs, paid-ai-data-projects, career-development",
     "url": "src/pages/plug-hub/plug-hub.html#umuzi-experience-lab",
@@ -979,7 +1002,7 @@
     "catalogType": "opportunity"
   },
   {
-    "title": "Umuzi — SAP Educate to Employ",
+    "title": "Umuzi - SAP Educate to Employ",
     "category": "Plug Hub",
     "description": "A free learning pathway covering career options in SAP-related HR, technology, finance and customer support. The programme page did not show a current cohort deadline in this review. Provider: Umuzi Categories: free-digital-skills, free-coding-academies, career-development",
     "url": "src/pages/plug-hub/plug-hub.html#umuzi-sap-educate-employ",
@@ -995,7 +1018,7 @@
     "catalogType": "opportunity"
   },
   {
-    "title": "Zaio Data Science Bootcamp — October 2026 intake",
+    "title": "Zaio Data Science Bootcamp - October 2026 intake",
     "category": "Plug Hub",
     "description": "An upcoming beginner-friendly online bootcamp with Python, analytics, machine learning and data visualisation. The official Zaio programme page lists applications closing 15 October 2026 and a bootcamp intake starting 27 October 2026. Provider: Zaio Categories: paid-training-programmes",
     "url": "src/pages/plug-hub/plug-hub.html#zaio-data-science-bootcamp-oct-2026",
@@ -1009,7 +1032,7 @@
     "catalogType": "opportunity"
   },
   {
-    "title": "GirlCode — coding, skills acceleration and learnership programmes",
+    "title": "GirlCode - coding, skills acceleration and learnership programmes",
     "category": "Plug Hub",
     "description": "GirlCode lists coding bootcamps, skills acceleration, learnerships and clubs for girls and women. Funding and eligibility differ by programme; no current cohort, fee status or stipend was confirmed from the overview page. Provider: GirlCode Categories: free-digital-skills, learnerships, internships, career-development",
     "url": "src/pages/plug-hub/plug-hub.html#girlcode-programmes",
@@ -1025,7 +1048,7 @@
     "catalogType": "opportunity"
   },
   {
-    "title": "CodeSpace Academy — courses and limited scholarships",
+    "title": "CodeSpace Academy - courses and limited scholarships",
     "category": "Plug Hub",
     "description": "CodeSpace offers paid coding courses and says it has a limited number of scholarships based on merit and financial need. No current scholarship deadline or cohort terms were confirmed on the overview page. Provider: CodeSpace Academy Categories: paid-training-programmes, bursaries-scholarships, career-development",
     "url": "src/pages/plug-hub/plug-hub.html#codespace-scholarships",
@@ -1039,7 +1062,7 @@
     "catalogType": "opportunity"
   },
   {
-    "title": "Zaio — paid tech courses and 2026–27 intakes",
+    "title": "Zaio - paid tech courses and 2026–27 intakes",
     "category": "Plug Hub",
     "description": "Zaio's current programme page lists paid bootcamps and occupational certificates with specific 2026–27 closing dates. Compare the programme price, exam fees and finance terms before applying. Provider: Zaio Categories: paid-training-programmes, career-development",
     "url": "src/pages/plug-hub/plug-hub.html#zaio-current-programmes",
@@ -1056,7 +1079,7 @@
     "catalogType": "opportunity"
   },
   {
-    "title": "SAYouth.mobi — search youth opportunities",
+    "title": "SAYouth.mobi - search youth opportunities",
     "category": "Plug Hub",
     "description": "An official South African youth opportunity portal. Search the live portal for current openings and confirm each listing's employer, requirements, location, closing date and payment terms. Provider: SAYouth Categories: jobs-entry-level, internships, apprenticeships, learnerships, graduate-programmes, bursaries-scholarships",
     "url": "src/pages/plug-hub/plug-hub.html#sa-youth-portal",
@@ -1125,7 +1148,7 @@
     "catalogType": "opportunity"
   },
   {
-    "title": "EvoHacks2026 — AI in Automation",
+    "title": "EvoHacks2026 - AI in Automation",
     "category": "Flex Your Code",
     "description": "A beginner-friendly online AI automation hackathon for high-school students. Teams of up to four may build between 10 and 11 October; project submission closes 11 October at 12:00 PDT. Provider: EvoHacks / Devpost Categories: hackathons-and-paid-challenges",
     "url": "src/pages/flex-your-code/index.html#evohacks-2026",
@@ -1156,7 +1179,7 @@
     "catalogType": "opportunity"
   },
   {
-    "title": "National Youth Development Agency — Opportunities Corner",
+    "title": "National Youth Development Agency - Opportunities Corner",
     "category": "Plug Hub",
     "description": "The NYDA Opportunities Corner links to youth services and external vacancies, internships, bursaries and programmes. Confirm each listing with the named employer or provider; it is a discovery directory, not a single application. Provider: National Youth Development Agency Categories: jobs-entry-level, internships, learnerships, bursaries-scholarships, career-development",
     "url": "src/pages/plug-hub/plug-hub.html#nyda-opportunities",
@@ -1193,6 +1216,19 @@
       "competition",
       "coding",
       "prizes"
+    ],
+    "catalogType": "page"
+  },
+  {
+    "title": "Project Ideas",
+    "category": "Build",
+    "description": "Practical project suggestions with YouTube walkthroughs, skills to practise and ideas for making each project your own.",
+    "url": "src/pages/project-suggestions/index.html",
+    "tags": [
+      "projects",
+      "portfolio",
+      "youtube",
+      "ideas"
     ],
     "catalogType": "page"
   }

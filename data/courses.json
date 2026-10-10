@@ -1,7 +1,7 @@
 [
   {
     "id": "freecodecamp-core",
-    "title": "freeCodeCamp — interactive developer curriculum",
+    "title": "freeCodeCamp - interactive developer curriculum",
     "provider": "freeCodeCamp",
     "description": "Self-paced coding lessons and projects across web development, JavaScript, Python, databases and more.",
     "subjects": [
@@ -26,7 +26,7 @@
   },
   {
     "id": "odin-foundations",
-    "title": "The Odin Project — Foundations",
+    "title": "The Odin Project - Foundations",
     "provider": "The Odin Project",
     "description": "A project-based introduction to the command line, Git, HTML, CSS, JavaScript and web development.",
     "subjects": [
@@ -48,7 +48,7 @@
   },
   {
     "id": "cs50x-2026",
-    "title": "Harvard CS50x 2026 — Introduction to Computer Science",
+    "title": "Harvard CS50x 2026 - Introduction to Computer Science",
     "provider": "Harvard CS50",
     "description": "A broad introduction to computer science with problem sets and a final project using C, Python, SQL, HTML, CSS and JavaScript.",
     "subjects": [
@@ -72,7 +72,7 @@
   },
   {
     "id": "cs50-cybersecurity",
-    "title": "Harvard CS50 — Introduction to Cybersecurity",
+    "title": "Harvard CS50 - Introduction to Cybersecurity",
     "provider": "Harvard CS50",
     "description": "Learn practical ways to secure accounts, data, systems and software, with five weeks of course material and assignments.",
     "subjects": [
@@ -94,7 +94,7 @@
   },
   {
     "id": "w3schools-tutorials",
-    "title": "W3Schools — programming tutorials and exercises",
+    "title": "W3Schools - programming tutorials and exercises",
     "provider": "W3Schools",
     "description": "Readable, interactive tutorials for HTML, CSS, JavaScript, Python, SQL, Java, Git, PostgreSQL and many other topics.",
     "subjects": [
@@ -119,7 +119,7 @@
   },
   {
     "id": "mit-python-6001",
-    "title": "MIT OCW — Introduction to Computer Science and Programming in Python",
+    "title": "MIT OCW - Introduction to Computer Science and Programming in Python",
     "provider": "MIT OpenCourseWare",
     "description": "A university-level introduction to computational thinking, Python, algorithms and problem solving, with course materials and assignments.",
     "subjects": [
@@ -141,7 +141,7 @@
   },
   {
     "id": "openlearn-intro-computing",
-    "title": "OpenLearn — Introducing computing and IT",
+    "title": "OpenLearn - Introducing computing and IT",
     "provider": "The Open University OpenLearn",
     "description": "An introductory course on computing, digital technologies, data storage and online safety.",
     "subjects": [
@@ -162,7 +162,7 @@
   },
   {
     "id": "saylor-cs101",
-    "title": "Saylor Academy CS101 — Introduction to Programming I",
+    "title": "Saylor Academy CS101 - Introduction to Programming I",
     "provider": "Saylor Academy",
     "description": "Self-paced programming and computer science fundamentals with assessments and a final exam.",
     "subjects": [
@@ -183,7 +183,7 @@
   },
   {
     "id": "ibm-skillsbuild",
-    "title": "IBM SkillsBuild — AI, cybersecurity, data and cloud learning",
+    "title": "IBM SkillsBuild - AI, cybersecurity, data and cloud learning",
     "provider": "IBM SkillsBuild",
     "description": "A catalog of career-focused courses and learning paths with practical topics and digital credentials on selected learning experiences.",
     "subjects": [
@@ -206,7 +206,7 @@
   },
   {
     "id": "microsoft-learn-cloud",
-    "title": "Microsoft Learn — Introduction to Cloud Infrastructure",
+    "title": "Microsoft Learn - Introduction to Cloud Infrastructure",
     "provider": "Microsoft Learn",
     "description": "A beginner learning path on cloud concepts and Azure services, with guided practical projects.",
     "subjects": [
@@ -227,7 +227,7 @@
   },
   {
     "id": "kaggle-computer-vision",
-    "title": "Kaggle Learn — Computer Vision",
+    "title": "Kaggle Learn - Computer Vision",
     "provider": "Kaggle Learn",
     "description": "A practical course on convolutional neural networks, TensorFlow and Keras with coding exercises.",
     "subjects": [
@@ -249,7 +249,7 @@
   },
   {
     "id": "cisco-cybersecurity",
-    "title": "Cisco Networking Academy — Introduction to Cybersecurity",
+    "title": "Cisco Networking Academy - Introduction to Cybersecurity",
     "provider": "Cisco Networking Academy",
     "description": "A beginner course introducing cybersecurity careers, threats and protection concepts.",
     "subjects": [
@@ -270,7 +270,7 @@
   },
   {
     "id": "tryhackme-free-rooms",
-    "title": "TryHackMe — Free cybersecurity rooms",
+    "title": "TryHackMe - Free cybersecurity rooms",
     "provider": "TryHackMe",
     "description": "Hands-on browser-based cybersecurity rooms across beginner and advanced topics; the free plan has limited paths and AttackBox time.",
     "subjects": [
@@ -313,7 +313,7 @@
   },
   {
     "id": "htb-academy-fundamentals",
-    "title": "HTB Academy — free Fundamental modules",
+    "title": "HTB Academy - free Fundamental modules",
     "provider": "Hack The Box Academy",
     "description": "Guided cybersecurity lessons with browser-based practice; the free account includes a limited number of cubes for selected Fundamental modules.",
     "subjects": [
@@ -334,7 +334,7 @@
   },
   {
     "id": "google-cloud-genai",
-    "title": "Google Cloud Skills Boost — Introduction to Generative AI",
+    "title": "Google Cloud Skills Boost - Introduction to Generative AI",
     "provider": "Google Cloud Skills Boost",
     "description": "A short introduction to generative AI concepts, large language models and Google Cloud tools.",
     "subjects": [
@@ -354,7 +354,7 @@
   },
   {
     "id": "edx-audit-directory",
-    "title": "edX — eligible free-audit courses",
+    "title": "edX - eligible free-audit courses",
     "provider": "edX",
     "description": "Find open courses with a free audit track. Audit access is temporary and can exclude graded assignments; certificates are paid and some courses have no audit option.",
     "subjects": [
@@ -377,7 +377,7 @@
   },
   {
     "id": "coursera-python-preview",
-    "title": "Coursera — Python Programming Essentials (preview)",
+    "title": "Coursera - Python Programming Essentials (preview)",
     "provider": "Coursera",
     "description": "A beginner course from Rice University. The no-cost option currently previews the first module; full access and the shareable certificate require payment or eligible financial aid.",
     "subjects": [
@@ -397,7 +397,7 @@
   },
   {
     "id": "alison-python",
-    "title": "Alison — Programming Using Python",
+    "title": "Alison - Programming Using Python",
     "provider": "Alison",
     "description": "A free online Python course covering programming fundamentals. Optional Alison certificates are a separate paid product; check the current checkout price before ordering.",
     "subjects": [
@@ -418,7 +418,7 @@
   },
   {
     "id": "roadmap-sh-pathways",
-    "title": "roadmap.sh — role-based developer roadmaps",
+    "title": "roadmap.sh - role-based developer roadmaps",
     "provider": "roadmap.sh",
     "description": "Community-built skill roadmaps and project ideas for frontend, backend, Java, Python, DevOps, data and other tech roles. This is a guide, not a course provider.",
     "subjects": [
@@ -443,7 +443,7 @@
   },
   {
     "id": "class-central-directory",
-    "title": "Class Central — free-course discovery directory",
+    "title": "Class Central - free-course discovery directory",
     "provider": "Class Central",
     "description": "Search and compare courses from universities and learning platforms. Class Central is a discovery directory; always verify free access and certificate terms with the course provider.",
     "subjects": [
