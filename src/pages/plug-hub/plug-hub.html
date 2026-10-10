@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earn While You Learn</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khethi in Tech (KIT) - Plug Hub Opportunities</title>
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Existing external stylesheets assumed in project structure -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- 1. NAVIGATION HEADER -->
+    <header class="navbar">
+        <div class="cluster" style="justify-content: space-between; width: 100%; max-width: 1200px; margin: 0 auto;">
+            <a href="#" class="nav-logo">
+                <i class="fa-solid fa-plug-circle-bolt"></i>
+                <span class="brand-accent"><span>K</span>hethi <span>I</span>n <span>T</span>ech</span> | Plug Hub
+            </a>
+
+            <nav class="nav-links">
+                <a href="#opportunities" class="nav-link active" id="nav-business-link">Business Opportunities</a>
+                <a href="#jobs" class="nav-link" id="nav-jobs-link">Jobs & Gigs</a>
+                <a href="#about" class="nav-link" id="nav-about-link">About KIT</a>
+            </nav>
+
+            <div class="cluster">
+                <button type="button" class="theme-toggle" id="themeToggleBtn" aria-label="Toggle light and dark theme">
+                    <span class="theme-toggle-icon">
+                        <i class="fa-solid fa-moon" id="themeIcon"></i>
+                    </span>
+                </button>
+
+                <button type="button" class="nav-toggle" id="mobileMenuBtn" aria-label="Toggle navigation menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#opportunities" class="nav-link active">Business Opportunities</a>
+            <a href="#jobs" class="nav-link">Jobs & Gigs</a>
+            <a href="#about" class="nav-link">About KIT</a>
+        </div>
+    </header>
+
+    <main class="stack" style="max-width: 1200px; margin: 0 auto; padding: 2rem 1rem;">
+        
+        <!-- 2. HERO SECTION -->
+        <section class="hero center-content">
+            <div class="hero-content stack">
+                <h1 class="hero-title">
+                    <span class="brand-accent"><span>K</span>IT</span> Plug Hub Opportunities Marketplace
+                </h1>
+                <p class="hero-description">
+                    Connecting qualified businesses, operators, and leads directly with Micro1 enterprise data partnerships and compensation programs.
+                </p>
+
+                <!-- Dual Path Switcher -->
+                <div class="cluster center-content" role="tablist">
+                    <button type="button" class="btn btn-primary" id="tab-business-btn" role="tab" aria-selected="true">
+                        <i class="fa-solid fa-briefcase"></i> Business Opportunities
+                    </button>
+                    <button type="button" class="btn btn-secondary" id="tab-jobs-btn" role="tab" aria-selected="false">
+                        <i class="fa-solid fa-user-gear"></i> Jobs & Gigs
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. SEARCH & FILTER TOOLBAR -->
+        <section class="cluster" style="justify-content: space-between; align-items: center; background: var(--color-surface); padding: 1rem; border-radius: var(--radius-card); border: 1px solid var(--color-border);">
+            <div class="form-group" style="flex: 1; max-width: 28rem; margin: 0;">
+                <label for="searchInput" class="form-label" style="display: none;">Search Opportunities</label>
+                <input type="text" id="searchInput" class="form-input" placeholder="Search by title, region, or target audience...">
+            </div>
+
+            <div class="cluster">
+                <span class="badge badge-accent" id="resultCountBadge">3 Verified Offers</span>
+            </div>
+        </section>
+
+        <!-- 4. OPPORTUNITY CARDS GRID -->
+        <section id="opportunitiesGrid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
+            
+            <!-- Card 1: Defunct Company Data Partnership -->
+            <article class="card card-featured card-interactive" data-type="business" data-id="defunct-data">
+                <div class="stack">
+                    <div class="cluster" style="justify-content: space-between;">
+                        <span class="badge badge-accent">Business Opportunity</span>
+                        <span class="badge">Micro1</span>
+                    </div>
+
+                    <h2 class="project-title" style="font-size: 1.25rem;">Defunct Company Data Partnership</h2>
+
+                    <div class="stack">
+                        <span class="form-label">Advertised Company Compensation</span>
+                        <p class="product-price" style="color: var(--color-accent);">$100K–$2M+</p>
+                        <small style="color: var(--color-muted);">For eligible businesses. Subject to Micro1 terms.</small>
+                    </div>
+
+                    <div class="stack">
+                        <span class="form-label">Target Audience</span>
+                        <p class="project-description">
+                            Former founders, company directors, business owners with historical records, business brokers and insolvency professionals.
+                        </p>
+                    </div>
+
+                    <div class="stack">
+                        <span class="form-label">Eligible Regions</span>
+                        <p class="project-description">
+                            US, UK, Canada, India, Australia, Singapore, Ireland, Netherlands and France.
+                        </p>
+                    </div>
+
+                    <div style="margin-top: auto; padding-top: 1rem;">
+                        <button type="button" class="btn btn-primary" style="width: 100%;" onclick="openModal('defunct-data')">
+                            Prepare listing
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 2: Enterprise Data Partnership -->
+            <article class="card card-featured card-interactive" data-type="business" data-id="enterprise-data">
+                <div class="stack">
+                    <div class="cluster" style="justify-content: space-between;">
+                        <span class="badge badge-accent">Enterprise Opportunity</span>
+                        <span class="badge">Micro1</span>
+                    </div>
+
+                    <h2 class="project-title" style="font-size: 1.25rem;">Enterprise Data Partnership</h2>
+
+                    <div class="stack">
+                        <span class="form-label">Advertised Company Compensation</span>
+                        <p class="product-price" style="color: var(--color-accent);">$100K–$2M+</p>
+                        <small style="color: var(--color-muted);">For eligible businesses. Subject to Micro1 terms.</small>
+                    </div>
+
+                    <div class="stack">
+                        <span class="form-label">Target Audience</span>
+                        <p class="project-description">
+                            CEOs, founders, COOs, operations directors and established companies with 30+ employees.
+                        </p>
+                    </div>
+
+                    <div class="stack">
+                        <span class="form-label">Eligible Regions</span>
+                        <p class="project-description">
+                            US and Western markets.
+                        </p>
+                    </div>
+
+                    <div style="margin-top: auto; padding-top: 1rem;">
+                        <button type="button" class="btn btn-primary" style="width: 100%;" onclick="openModal('enterprise-data')">
+                            Prepare listing
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 3: Video Data Collection Partner -->
+            <article class="card card-featured card-interactive" data-type="business" data-id="video-data">
+                <div class="stack">
+                    <div class="cluster" style="justify-content: space-between;">
+                        <span class="badge badge-success">South Africa Included</span>
+                        <span class="badge">Micro1</span>
+                    </div>
+
+                    <h2 class="project-title" style="font-size: 1.25rem;">Video Data Collection Partner</h2>
+
+                    <div class="stack">
+                        <span class="form-label">Advertised Company Compensation</span>
+                        <p class="product-price" style="color: var(--color-accent);">$8K–$10K+</p>
+                        <small style="color: var(--color-muted);">For eligible participants. Confirm terms with Micro1.</small>
+                    </div>
+
+                    <div class="stack">
+                        <span class="form-label">Target Audience</span>
+                        <p class="project-description">
+                            Employers, operations managers and businesses able to coordinate eligible employees.
+                        </p>
+                    </div>
+
+                    <div class="stack">
+                        <span class="form-label">Eligible Regions</span>
+                        <p class="project-description">
+                            South Africa, LATAM, US and other eligible Western markets.
+                        </p>
+                    </div>
+
+                    <div style="margin-top: auto; padding-top: 1rem;">
+                        <button type="button" class="btn btn-primary" style="width: 100%;" onclick="openModal('video-data')">
+                            Prepare listing
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+
+        <!-- Empty State Container for Jobs & Gigs or Search Empty -->
+        <section id="emptyState" class="card center-content" style="display: none; padding: 3rem 1rem;">
+            <div class="stack center-content">
+                <i class="fa-solid fa-briefcase" style="font-size: 2.5rem; color: var(--color-accent);"></i>
+                <h3 class="project-title">Jobs & Gigs Marketplace Opening Soon</h3>
+                <p class="project-description" style="max-width: 28rem;">
+                    Individual roles and workforce opportunities will be listed shortly. Please check the Business Opportunities tab for corporate data partnerships.
+                </p>
+                <button type="button" class="btn btn-outline" id="resetTabBtn">View Business Opportunities</button>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 5. MODAL DIALOGUE LAYOUT -->
+    <div class="modal-overlay" id="opportunityModalOverlay" style="display: none;" aria-hidden="true">
+        <div class="modal" role="dialog" aria-labelledby="modalTitle">
+            <div class="modal-header">
+                <div>
+                    <span class="badge badge-accent" id="modalBadge">Business Opportunity</span>
+                    <h2 class="project-title" id="modalTitle" style="margin-top: 0.5rem;">Opportunity Title</h2>
+                </div>
+                <button type="button" class="modal-close" onclick="closeModal()" aria-label="Close dialog">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <div class="modal-body stack">
+                <div class="stack">
+                    <span class="form-label">Target Qualification</span>
+                    <p class="project-description" id="modalAudience"></p>
+                </div>
+
+                <div class="stack">
+                    <span class="form-label">Eligible Regions</span>
+                    <p class="project-description" id="modalRegions"></p>
+                </div>
+
+                <div class="stack">
+                    <span class="form-label">Program Scope</span>
+                    <p class="project-description" id="modalScope"></p>
+                </div>
+
+                <div class="alert alert-info">
+                    <div class="stack">
+                        <span class="form-label">Advertised Company Compensation</span>
+                        <p class="product-price" id="modalComp" style="color: var(--color-accent);"></p>
+                        <small>Compensation and participation are subject to Micro1's terms and eligibility validation.</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-ghost" onclick="closeModal()">Cancel</button>
+                <a id="modalApplyLink" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                    Proceed to Micro1 Partner Link
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 6. FOOTER SECTION -->
+    <footer class="footer">
+        <div class="footer-content" style="max-width: 1200px; margin: 0 auto;">
+            <div class="footer-section">
+                <a href="#" class="nav-logo">
+                    <i class="fa-solid fa-plug-circle-bolt"></i>
+                    <span class="brand-accent"><span>K</span>hethi <span>I</span>n <span>T</span>ech</span>
+                </a>
+                <p class="footer-link" style="text-decoration: none;">
+                    Bridging businesses, talent, and enterprise digital programs across global and emerging tech ecosystems.
+                </p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Hub Pathways</h3>
+                <div class="footer-links">
+                    <a href="#opportunities" class="footer-link">Defunct Company Data Partnership</a>
+                    <a href="#opportunities" class="footer-link">Enterprise Data Partnership</a>
+                    <a href="#opportunities" class="footer-link">Video Data Collection Partner</a>
+                    <a href="#jobs" class="footer-link">Jobs & Work Opportunities</a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Connect & Follow</h3>
+                <div class="social-links">
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">
+                        <span class="social-icon"><i class="fa-brands fa-instagram"></i></span>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                        <span class="social-icon"><i class="fa-brands fa-linkedin-in"></i></span>
+                    </a>
+                    <a href="https://x.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="X Twitter">
+                        <span class="social-icon"><i class="fa-brands fa-x-twitter"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom" style="max-width: 1200px; margin: 2rem auto 0; text-align: center;">
+            <p>&copy; 2026 Khethi in Tech (KIT) Plug Hub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- 7. JAVASCRIPT LOGIC (No Inline Styles) -->
+    <script>
+        /* Opportunity data store for modal population */
+        const opportunityData = {
+            'defunct-data': {
+                title: 'Defunct Company Data Partnership',
+                badge: 'Business Opportunity',
+                audience: 'Former founders, company directors, business owners with historical records, business brokers and insolvency professionals.',
+                regions: 'US, UK, Canada, India, Australia, Singapore, Ireland, Netherlands and France.',
+                scope: 'For eligible companies that are no longer operating. Open to all industries with historical business records, knowledge bases, or IP.',
+                comp: '$100K–$2M+',
+                link: 'https://refer.micro1.ai/opportunities'
+            },
+            'enterprise-data': {
+                title: 'Enterprise Data Partnership',
+                badge: 'Enterprise Opportunity',
+                audience: 'CEOs, founders, COOs, operations directors and established companies with 30+ employees.',
+                regions: 'US and Western markets.',
+                scope: 'For established businesses with extensive internal documentation, SOPs, knowledge bases, CRM metadata and operational histories.',
+                comp: '$100K–$2M+',
+                link: 'https://refer.micro1.ai/opportunities'
+            },
+            'video-data': {
+                title: 'Video Data Collection Partner',
+                badge: 'South Africa Included',
+                audience: 'Employers, operations managers and businesses able to coordinate eligible employees.',
+                regions: 'South Africa, LATAM, US and other eligible Western markets.',
+                scope: 'Ongoing AI training and evaluation using employees\' real-world work footage and process recordings.',
+                comp: '$8K–$10K+',
+                link: 'https://refer.micro1.ai/opportunities'
+            }
+        };
+
+        let activeTab = 'business';
+
+        /* Tab Switcher Logic */
+        const tabBusinessBtn = document.getElementById('tab-business-btn');
+        const tabJobsBtn = document.getElementById('tab-jobs-btn');
+        const resetTabBtn = document.getElementById('resetTabBtn');
+        const opportunitiesGrid = document.getElementById('opportunitiesGrid');
+        const emptyState = document.getElementById('emptyState');
+
+        function switchTab(tab) {
+            activeTab = tab;
+            if (tab === 'business') {
+                tabBusinessBtn.className = 'btn btn-primary';
+                tabBusinessBtn.setAttribute('aria-selected', 'true');
+                tabJobsBtn.className = 'btn btn-secondary';
+                tabJobsBtn.setAttribute('aria-selected', 'false');
+                opportunitiesGrid.style.display = 'grid';
+                emptyState.style.display = 'none';
+            } else {
+                tabJobsBtn.className = 'btn btn-primary';
+                tabJobsBtn.setAttribute('aria-selected', 'true');
+                tabBusinessBtn.className = 'btn btn-secondary';
+                tabBusinessBtn.setAttribute('aria-selected', 'false');
+                opportunitiesGrid.style.display = 'none';
+                emptyState.style.display = 'flex';
+            }
+            filterCards();
+        }
+
+        tabBusinessBtn.addEventListener('click', () => switchTab('business'));
+        tabJobsBtn.addEventListener('click', () => switchTab('jobs'));
+        if(resetTabBtn) resetTabBtn.addEventListener('click', () => switchTab('business'));
+
+        /* Search Filtering Logic */
+        const searchInput = document.getElementById('searchInput');
+        const resultCountBadge = document.getElementById('resultCountBadge');
+
+        function filterCards() {
+            if (activeTab === 'jobs') return;
+
+            const query = searchInput.value.toLowerCase().trim();
+            const cards = opportunitiesGrid.querySelectorAll('.card');
+            let visibleCount = 0;
+
+            cards.forEach(card => {
+                const text = card.textContent.toLowerCase();
+                if (text.includes(query)) {
+                    card.style.display = 'flex';
+                    visibleCount++;
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            resultCountBadge.textContent = `${visibleCount} Verified Offer${visibleCount === 1 ? '' : 's'}`;
+        }
+
+        searchInput.addEventListener('input', filterCards);
+
+        /* Modal Dialog Controls */
+        const modalOverlay = document.getElementById('opportunityModalOverlay');
+
+        function openModal(id) {
+            const data = opportunityData[id];
+            if (!data) return;
+
+            document.getElementById('modalTitle').textContent = data.title;
+            document.getElementById('modalBadge').textContent = data.badge;
+            document.getElementById('modalAudience').textContent = data.audience;
+            document.getElementById('modalRegions').textContent = data.regions;
+            document.getElementById('modalScope').textContent = data.scope;
+            document.getElementById('modalComp').textContent = data.comp;
+            document.getElementById('modalApplyLink').href = data.link;
+
+            modalOverlay.style.display = 'flex';
+            modalOverlay.setAttribute('aria-hidden', 'false');
+        }
+
+        function closeModal() {
+            modalOverlay.style.display = 'none';
+            modalOverlay.setAttribute('aria-hidden', 'true');
+        }
+
+        modalOverlay.addEventListener('click', (e) => {
+            if (e.target === modalOverlay) closeModal();
+        });
+
+        /* Theme Toggle Logic */
+        const themeToggleBtn = document.getElementById('themeToggleBtn');
+        const themeIcon = document.getElementById('themeIcon');
+
+        themeToggleBtn.addEventListener('click', () => {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const nextTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', nextTheme);
+            themeIcon.className = nextTheme === 'dark' ? 'fa-solid fa-moon' : 'fa-solid fa-sun';
+        });
+
+        /* Mobile Menu Navigation */
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('is-open');
+        });
+    </script>
+</body>
+</html>
+</body>
+</html>
